@@ -20,7 +20,7 @@ We offer the following options for the domain configuration:
 You will need to enter 4 DNS records to set up your sending domain. 2 TXT records and 2 MX records. This allows us to send emails on your behalf. We use a service called [Mailgun](https://www.mailgun.com/) to do this.
 
 {% hint style="warning" %}
-If you do not add your own sending domain, all platform emails sent to your clients will come from notifications@moregoodreviews.com.
+If you do not add your own sending domain, all platform emails sent to your clients will come from notifications@mg.moregoodreviews.com.
 {% endhint %}
 
 ## CNAME Setup
