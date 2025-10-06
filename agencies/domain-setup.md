@@ -19,7 +19,7 @@ We offer the following options for the domain configuration:
 
 You will need to enter 4 DNS records to set up your sending domain. 2 TXT records and 2 MX records. This allows us to send emails on your behalf. We use a service called [Mailgun](https://www.mailgun.com/) to do this.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 If you do not add your own sending domain, all platform emails sent to your clients will come from notifications@mg.moregoodreviews.com.
 {% endhint %}
 
@@ -27,7 +27,7 @@ If you do not add your own sending domain, all platform emails sent to your clie
 
 Any domain that is not a sending domain is considered a CNAME. This means it is simply a subdomain you set up in your DNS that points to our platform. You will need to add 1 CNAME record and 1 TXT record per CNAME. After adding your domain in the console, a TXT record will be generated within a few minutes. This TXT record is required for SSL certificate issuance, enabling us to serve your assets securely over HTTPS.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 If you do not add the CNAME for the client portal, the software will not be white labeled, and your clients will be directed to moregoodreviews.com to create an account.
 {% endhint %}
 
