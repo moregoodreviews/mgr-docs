@@ -6,7 +6,7 @@ icon: hand-wave
 
 Welcome to the documentation for More Good Reviews (MGR), an automated review collection engine that gives businesses an easy way to continuously request public reviews and private feedback from their customers.
 
-Why did we build this? In this increasingly competitive world, **reviews, testimonials, and feedback are more important than ever to convince people to pay for your products and services.** You need a constant flow of fresh reviews to move up rankings, higher ratings to stand out from competitors, and feedback to improve your offerings. We built MGR to do all these things for you on autopilot, so you can focus on doing what you do best — building a 5-star product.
+Why did we build this? In this increasingly competitive world, **reviews, testimonials, and feedback are more important than ever to convince people to pay for your products and services.** You need a constant flow of fresh reviews to move up rankings, higher ratings to stand out from competitors, and feedback to improve your offerings. We built MGR to do all these things for you on autopilot, so you can focus on doing what you do best — building a 5-star business.
 
 ## How It Works
 
