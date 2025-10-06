@@ -49,11 +49,11 @@ Schedules a review request for the customer.
 
 <mark style="color:green;">`POST`</mark> `https://api.moregoodreviews.com/beacon/charges`
 
-Records a charge for the customer.
+Records a charge for the customer. You must first create the customer before adding charges.
 
 #### Body
 
-<table data-full-width="false"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>email</td><td>string, required without phone.</td><td>The customer's email address.</td></tr><tr><td>phone</td><td>string, required without email.</td><td>The customer's phone number.</td></tr><tr><td>amount</td><td>integer</td><td>Amount of charge in lowest currency denomination.</td></tr><tr><td>currency</td><td>string</td><td>The 3-letter currency code.</td></tr><tr><td>charged_at</td><td>date</td><td>The date the customer was charged.</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>email</td><td>string, required without phone.</td><td>The customer's email address.</td></tr><tr><td>phone</td><td>string, required without email.</td><td>The customer's phone number.</td></tr><tr><td>amount</td><td>integer</td><td>Amount of charge in lowest currency denomination.</td></tr><tr><td>currency</td><td>string</td><td>The 3-letter currency code.</td></tr><tr><td>location_slug</td><td>string</td><td>The slug of a <a href="https://moregoodreviews.com/settings/locations">location</a>. If provided, the default location for the customer will be changed to this one.</td></tr><tr><td>charged_at</td><td>date</td><td>The date the customer was charged.</td></tr></tbody></table>
 
 ### Get customers
 
