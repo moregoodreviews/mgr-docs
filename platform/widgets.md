@@ -75,10 +75,15 @@ The left sidebar is composed of several expandable panels to help you filter and
 * Pagination - Show arrows, dots, or hide pagination.
 * Max Slides - The maximum number of slides to display on a page.
 
+**Marquee**
+
+* Visible Slides - How many reviews are visible at once.
+* Duration - The speed of the scrolling track.
+
 **Filters**
 
 * Reviews Per Page - For paginated results, the number of reviews per page.
-* Maximum Reviews - The maximum number of reviews to display. 0 is no max.
+* Maximum Reviews - The maximum number of reviews to display. 0 means no maximum.
 * Lowest Rating - Show reviews with X score or higher.
 * Review Length - Show reviews with X characters or more.
 * Locations - Show reviews for specific locations.
@@ -128,4 +133,4 @@ By default, all widget text (excluding reviews, customer names, and sources) mat
 
 ## Publishing Widgets
 
-When editing widgets, all changes are applied live in real time. However, you can easily publish or unpublish a widget from the widget builder. Unpublishing a widget will hide it from your website while you continue working on it.
+When editing widgets, all changes are applied live in real time. However, you can easily publish or unpublish a widget from the widget builder. Unpublishing a widget will hide it from your website while you continue working on it. If your account has a widget limit, any new widgets created beyond that limit will remain unpublished until you upgrade your plan.
