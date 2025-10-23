@@ -4,18 +4,19 @@ icon: code
 
 # Widgets
 
-You can display your reviews on your website using our custom widget builder. We offer a variety of widget styles to choose from. To get started, go to the [Widgets](https://moregoodreviews.com/widgets) page in the sidebar and click Create Widget.
+You can display your reviews on your website using our custom widget builder. We offer a variety of widget types to choose from. To get started, go to the [Widgets](https://moregoodreviews.com/widgets) page in the sidebar and click Create Widget.
 
-Available options include:
+Available widget types:
 
-* Wall – Paginated masonry grid layout
-* Carousel – Rotating horizontal slider
-* Headline – An aggregate of all your reviews
-* Badge – A compact badge-style aggregate of your reviews
-* Faces – The faces of the customers that left reviews
-* Spotlight – Featured review with emphasis
-* Highlights - Continuous scroll of review highlights
-* Marquee - Continuous scroll of reviews
+1. Wall – A paginated masonry grid layout that automatically updates to display the latest reviews.
+2. Carousel – A rotating horizontal slider featuring hand-selected reviews.
+3. Dynamic Carousel – A rotating horizontal slider that automatically updates to display the latest reviews.
+4. Headline – An aggregate of all your reviews.
+5. Badge – A compact badge-style aggregate of your reviews.
+6. Faces – The faces of the customers that left reviews.
+7. Spotlight – A singular featured review with emphasis.
+8. Highlights – A continuously scrolling display featuring hand-selected review highlights.
+9. Marquee – A continuously scrolling display featuring hand-selected reviews.
 
 ## Customizing Widgets
 
@@ -83,6 +84,7 @@ The left sidebar is composed of several expandable panels to help you filter and
 * Locations - Show reviews for specific locations.
 * Sources - Show reviews from specific sources.
 * Tags - Show reviews with specific tags.
+* Include Hidden – Choose whether to display hidden reviews. Defaults to No.
 
 **Schema**
 
