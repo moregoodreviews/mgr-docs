@@ -1,6 +1,7 @@
 ---
-description: Get reviews, testimonials, and feedback directly in the platform.
-hidden: true
+description: >-
+  Capture customer info, feedback, or reviews (testimonials) natively in the
+  platform.
 icon: align-left
 ---
 
@@ -26,9 +27,26 @@ The default fields are the ones that are added to your review page once it is cr
 * **Last Name** - The customer's last name.
 * **Email Address** - The customer's email address.
 * **Phone Number** - The customer's phone number. Disabled by default.
+* **Company** - The customer's company name. Disabled by default.
 * **Review** - The customer's review or feedback.
 
 ## Custom Fields
 
-## Conditionally Displaying Fields
+You can add more fields to your review page by clicking the Add Field button while viewing your fields, then selecting a field type and providing a name. Once created, you can edit the field to configure additional options, and you can also reorder the fields to change the order in which they appear on your page.
+
+### Conditionally Displaying Custom Fields
+
+Custom fields have the option of being displayed only when certain ratings are selected. When editing a custom field, you'll see a Visibility section that allows you to choose which ratings the field should be displayed on. This is useful for differentiating between a "feedback" form for negative ratings, and a "review" form for positive ones.
+
+{% hint style="info" %}
+Custom fields are the only fields that can be deleted and set to conditionally display for each rating.
+{% endhint %}
+
+## Field Options
+
+Every field has the following options available upon editing them:
+
+* **Require Field** - The field must have an input for the form to be submitted.
+* **Disable Field** - The field can be disabled and hidden from the form.
+* **Hide Field Label** - The label above the field can be hidden. Useful when combined with placeholder text to shorten the length of the form.
 

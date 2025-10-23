@@ -1,5 +1,7 @@
 ---
-description: Redirect customers directly to 3rd party review sites.
+description: >-
+  Redirect customers directly to 3rd party review sites after selecting a
+  rating.
 icon: arrow-right
 ---
 
