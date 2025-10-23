@@ -8,15 +8,7 @@ You can display your reviews on your website using our custom widget builder. We
 
 Available widget types:
 
-1. Wall – A paginated masonry grid layout that automatically updates to display the latest reviews.
-2. Carousel – A rotating horizontal slider featuring hand-selected reviews.
-3. Dynamic Carousel – A rotating horizontal slider that automatically updates to display the latest reviews.
-4. Headline – An aggregate of all your reviews.
-5. Badge – A compact badge-style aggregate of your reviews.
-6. Faces – The faces of the customers that left reviews.
-7. Spotlight – A singular featured review with emphasis.
-8. Highlights – A continuously scrolling display featuring hand-selected review highlights.
-9. Marquee – A continuously scrolling display featuring hand-selected reviews.
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Wall</strong></td><td>A paginated masonry grid layout that automatically updates to display the latest reviews.</td></tr><tr><td><strong>Carousel</strong></td><td>A rotating horizontal slider featuring hand-selected reviews.</td></tr><tr><td><strong>Dynamic Carousel</strong></td><td>A rotating horizontal slider that automatically updates to display the latest reviews.</td></tr><tr><td><strong>Headline</strong></td><td>An aggregate of all your reviews.</td></tr><tr><td><strong>Badge</strong></td><td>A compact badge-style aggregate of your reviews.</td></tr><tr><td><strong>Faces</strong></td><td>The faces of the customers that left reviews.</td></tr><tr><td><strong>Spotlight</strong></td><td>A singular featured review with emphasis.</td></tr><tr><td><strong>Highlights</strong></td><td>A continuously scrolling display featuring hand-selected review highlights.</td></tr><tr><td><strong>Marquee</strong></td><td>A continuously scrolling display featuring hand-selected reviews.</td></tr><tr><td><strong>Corner</strong></td><td>A corner popup on your website displaying a rotating list of reviews.</td></tr></tbody></table>
 
 ## Customizing Widgets
 
