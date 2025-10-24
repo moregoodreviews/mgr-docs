@@ -33,7 +33,7 @@ This option allows you to capture a rating immediately after a customer selects 
 
 You can decide whether or not you would like to accept native reviews (testimonials). If you disable native reviews, you will need to have added 1 or more links to your page, otherwise there will be nothing to display after the customer selects a rating. If native reviews are disabled, we will display one or more links to 3rd party review sites for the customer to leave their positive review. If the review is negative, we will still display a form asking for their review (feedback).
 
-{% hint style="warning" %}
+{% hint style="info" %}
 All reviews, including the negative reviews will go into the platform. There's no separation between feedback and a review. So if a customer selects a negative rating, you may still see a 1 or 2-star review in the platform, but you can hide it from your showcase and widgets.
 {% endhint %}
 

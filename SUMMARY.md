@@ -14,6 +14,7 @@
 * [Widgets](platform/widgets.md)
 * [API Reference](platform/api-reference.md)
 * [Webhooks](platform/webhooks.md)
+* [AI Assistant](platform/ai-assistant.md)
 
 ## SMS
 
