@@ -1,9 +1,8 @@
 # Table of contents
 
-* [Welcome](README.md)
-
 ## Platform
 
+* [Welcome](README.md)
 * [Importing Customers](platform/importing-customers.md)
 * [Adding Your Domain](platform/adding-your-domain.md)
 * [Request Strategy](platform/request-strategy.md)
