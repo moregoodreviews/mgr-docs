@@ -15,6 +15,7 @@
 * [API Reference](platform/api-reference.md)
 * [Webhooks](platform/webhooks.md)
 * [AI Assistant](platform/ai-assistant.md)
+* [Signatures](platform/signatures.md)
 
 ## SMS
 
