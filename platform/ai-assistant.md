@@ -19,10 +19,10 @@ With AI Review Suggestions, your customers can generate between 1 - 5 suggestion
 
 You can adjusted several parameters for your AI-generated reviews:
 
-* **Number of Review Suggestions** - The number of suggestions for the customer to select from. They can also regenerate the suggestions.
-* **Maximum Review Length** - The maximum number of characters each review should be.
-* **Language** - Choose from 10 available languages for your reviews, or let the AI automatically write them in the customer’s browser language.
-* **Keywords in Reviews** - Add specific keywords to your reviews, when applicable, to help improve your listing’s SEO.
+* Number of Review Suggestions - The number of suggestions for the customer to select from. They can also regenerate the suggestions.
+* Maximum Review Length - The maximum number of characters each review should be.
+* Language - Choose from 10 available languages for your reviews, or let the AI automatically write them in the customer’s browser language.
+* Keywords in Reviews - Add specific keywords to your reviews, when applicable, to help improve your listing’s SEO.
 
 {% hint style="info" %}
 AI Review Suggestions are currently only available when writing a native review on your review page. This feature will not be available to your customers if they are redirected to a 3rd party site after selecting a rating. However, if you use links on your review page, the customer may copy/paste the AI-generated review into a 3rd party site.
@@ -34,9 +34,9 @@ With AI Replies, you can instantly generate responses to your Google reviews. Ea
 
 AI-generated replies are no more than 50 words. In addition, you can adjust several parameters:
 
-* **Default Tone** - Select from a list of tones to appear more personal: friendly, formal, empathetic, grateful, enthusiastic, casual, apologetic, informative, and humorous.
-* **Language** - Choose from 10 available languages for your replies, or let the AI automatically respond in the customer’s language.
-* **Keywords in Replies** - Add specific keywords to your replies, when applicable, to help improve your listing’s SEO.
+* Default Tone - Select from a list of tones to appear more personal: friendly, formal, empathetic, grateful, enthusiastic, casual, apologetic, informative, and humorous.
+* Language - Choose from 10 available languages for your replies, or let the AI automatically respond in the customer’s language.
+* Keywords in Replies - Add specific keywords to your replies, when applicable, to help improve your listing’s SEO.
 
 {% hint style="info" %}
 You can only reply publicly to reviews using the Google My Business integration. Any review imported or synced via the integration can be replied to publicly on your Google listing from the platform.
@@ -46,9 +46,9 @@ You can only reply publicly to reviews using the Google My Business integration.
 
 You can automate replies to all reviews on your Google My Business profile. Choose one of the following settings:
 
-* **Enable for all reviews** – automatically reply to every review.
-* **Enable for positive reviews** – automatically reply only to positive reviews.
-* **Disable** – turn off automatic replies.
+* Enable for all reviews – automatically reply to every review.
+* Enable for positive reviews – automatically reply only to positive reviews.
+* Disable – turn off automatic replies.
 
 ### Handling of Negative Reviews
 

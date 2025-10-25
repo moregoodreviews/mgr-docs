@@ -7,12 +7,12 @@ icon: webhook
 
 You can add one or more webhook URLs in order to receive events from the platform. Simply add your webhook URLs in the API settings page, [here](https://moregoodreviews.com/settings/api#webhooks).
 
-* **review-created** - Fired when a review has been created.
-* **review-updated** - Fired when a review has been updated.
-* **review-deleted** - Fired when a review has been deleted.
-* **message-created** - Fired when a message has been created.
-* **message-updated** - Fired when a message has been updated.
-* **message-deleted** - Fired when a message has been deleted.
+1. review-created - Fired when a review has been created.
+2. review-updated - Fired when a review has been updated.
+3. review-deleted - Fired when a review has been deleted.
+4. message-created - Fired when a message has been created.
+5. message-updated - Fired when a message has been updated.
+6. message-deleted - Fired when a message has been deleted.
 
 ### Review Events
 

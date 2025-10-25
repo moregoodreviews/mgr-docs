@@ -15,24 +15,24 @@ There is only one signature saved per project. If you make changes to it, it is 
 
 You can customize your email signature in several ways:
 
-* **Font Family** – Choose from a range of sans serif and serif system fonts.
-* **Body Font Size** – Set the font size for the text above the ratings.
-* **Label Font Size** – Set the font size for the text below the ratings.
-* **Text Color** – Choose the color for all text in the signature.
-* **Link Color** – Choose the color for hyperlinked text, if used in the selected layout.
-* **Icon Size** – Adjust the size of the rating icons.
-* **Rating Order** – Display ratings from best to worst, or worst to best.
-* **Body** – Edit the text that appears above the ratings.
-* **Layout** – Pick from five layouts featuring either faces or stars as rating icons.
-* **Review Page** – If multiple review pages exist in your project, select which one the signature should link to.
+* Font Family – Choose from a range of sans serif and serif system fonts.
+* Body Font Size – Set the font size for the text above the ratings.
+* Label Font Size – Set the font size for the text below the ratings.
+* Text Color – Choose the color for all text in the signature.
+* Link Color – Choose the color for hyperlinked text, if used in the selected layout.
+* Icon Size – Adjust the size of the rating icons.
+* Rating Order – Display ratings from best to worst, or worst to best.
+* Body – Edit the text that appears above the ratings.
+* Layout – Pick from five layouts featuring either faces or stars as rating icons.
+* Review Page – If multiple review pages exist in your project, select which one the signature should link to.
 
 ## Layouts
 
 You can select any of the following layouts for your signature:
 
-* **Faces 1** - Displays faces in a horizontal layout, with the best and worst label shown beneath them.
-* **Faces 2** - Displays faces in a horizontal layout, with rating labels shown to the right of each face.
-* **Faces 3** - Displays faces in a vertical layout, with rating labels shown to the right of each face.
-* **Stars 1** - Displays stars in a horizontal layout, with the best and worst label shown beneath them.
-* **Stars 2** - Displays stars in a horizontal layout, with rating labels shown to the right of each face.
+* Faces 1 - Displays faces in a horizontal layout, with the best and worst label shown beneath them.
+* Faces 2 - Displays faces in a horizontal layout, with rating labels shown to the right of each face.
+* Faces 3 - Displays faces in a vertical layout, with rating labels shown to the right of each face.
+* Stars 1 - Displays stars in a horizontal layout, with the best and worst label shown beneath them.
+* Stars 2 - Displays stars in a horizontal layout, with rating labels shown to the right of each face.
 

@@ -15,9 +15,9 @@ If you want to send the customer who just rated your business a 5/5 directly to 
 
 You can control how often your customers are redirected to each URL using the percentage inputs. Here's an example that would send half of your customers to Google to leave a review, while the other half get sent to Yelp and TripAdvisor.
 
-* **Google** - 50%
-* **Yelp** - 25%
-* **TripAdvisor** - 25%
+* Google - 50%
+* Yelp - 25%
+* TripAdvisor - 25%
 
 {% hint style="info" %}
 When setting the percentages for each redirect URL, the total must add up to 100% for each rating.

@@ -54,6 +54,7 @@ We offer a few options to change the appearance of your review page:
 This is the page that is displayed after a customer submits a review. You can customize it to suit your needs with the following options:
 
 * **Title** - The headline that is displayed after a review is given. For example, Thanks for your feedback!
+* **Confirmation Message** - A longer message shown after a review is submitted. It can be used to encourage customers to leave a review on a 3rd party site or to express an apology for a negative experience.
 * **Copied Message** - After a customer writes a review, if it is positive (a rating of 4 or 5), we will copy the text for them so they can paste it elsewhere. This is the message that is displayed to let them know.
 * **Button Label** - The success page has a button to direct the customer elsewhere when they are finished. You can edit the label.
 * **Button Link** - The URL for the button.

@@ -8,19 +8,19 @@ In order for MGR to request reviews from your customers, we need to import some 
 
 #### Customer Data
 
-1. **Name** - The customer's name.
-2. **Email** - The customer's email address.
-3. **Phone** - The customer's phone number.
-4. **Company** - The customer's company name.
-5. **Signup Date** - The date the customer signed up to your service.
+1. Name - The customer's name.
+2. Email - The customer's email address.
+3. Phone - The customer's phone number.
+4. Company - The customer's company name.
+5. Signup Date - The date the customer signed up to your service.
 
 We need this data to send messages, but why the signup date? In your request strategy, you can set how many minutes, hours, or days to wait to send a message after the customer signs up. Think of it as a trigger date. It is the date used to ultimately trigger the sending of messages to a customer.
 
 #### Charge History (Optional)
 
-1. **Charge Date** - When the customer was charged.
-2. **Charge Amount** - How much the customer was charged.
-3. **Subscription Info** - Whether or not the customer has a subscription.
+1. Charge Date - When the customer was charged.
+2. Charge Amount - How much the customer was charged.
+3. Subscription Info - Whether or not the customer has a subscription.
 
 We automatically save charge history if you connect a Stripe account, but you can also send it in via an app connector or our REST API. Why do we need charge history? You can tailor your request strategy to only request reviews from customers who have made at least 3 charges, for example. Or spent at least $100, or have an average charge of $20, or have an active subscription. This helps you better target customers who are likely to leave positive reviews.
 

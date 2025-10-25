@@ -25,10 +25,10 @@ Onboard your own customers using your own white labeled version of the product. 
 
 It is important to configure all of the settings to get your agency up and running properly. This includes the following:
 
-* **Basic Info** - Your agency name and other copy.
-* **Branding** - Your logo, icon, and primary color.
-* **Meta** - The title, description, and image to use for your meta data. This is what appears on your customer portal and console when visiting your custom domain name.
-* **Domain** - There are several options for configuring your domain name. The most important are the domain for sending emails and the domain for your client portal. You can learn more about the domain setup process, [here](domain-setup.md).
+* Basic Info - Your agency name and other copy.
+* Branding - Your logo, icon, and primary color.
+* Meta - The title, description, and image to use for your meta data. This is what appears on your customer portal and console when visiting your custom domain name.
+* Domain - There are several options for configuring your domain name. The most important are the domain for sending emails and the domain for your client portal. You can learn more about the domain setup process, [here](domain-setup.md).
 
 ## Adding Projects
 
