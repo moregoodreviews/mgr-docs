@@ -8,6 +8,8 @@ Welcome to the documentation for More Good Reviews (MGR), an automated review co
 
 Why did we build this? In this increasingly competitive world, **reviews, testimonials, and feedback are more important than ever to convince people to pay for your products and services.** You need a constant flow of fresh reviews to move up rankings, higher ratings to stand out from competitors, and feedback to improve your offerings. We built MGR to do all these things for you on autopilot, so you can focus on doing what you do best — building a 5-star business.
 
+<a href="https://moregoodreviews.com/signup" class="button primary">Sign Up</a><a href="https://moregoodreviews.com/login" class="button secondary">Log In</a>
+
 ## How It Works
 
 MGR works by emailing or texting customers on your behalf, asking them to rate your service. Upon selecting a rating, they are taken to a review page and presented with options to leave a review on review sites, like Google, Facebook, Yelp, TripAdvisor, G2, Capterra, and Trustpilot. You may also display a feedback form if the rating is not so great, or redirect them directly to a review site if it is.
