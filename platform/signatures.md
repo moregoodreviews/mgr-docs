@@ -1,6 +1,5 @@
 ---
 description: Add HTML email signatures that invite customers to leave reviews.
-hidden: true
 icon: marker
 ---
 
