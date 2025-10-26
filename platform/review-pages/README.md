@@ -1,4 +1,5 @@
 ---
+description: Customizable pages where you can request reviews from your customers.
 icon: window-flip
 ---
 
@@ -8,14 +9,14 @@ Every project has at least one review page. This is the page your customers are 
 
 ### The Basics
 
-1. **Title** - The first thing your customers will read. It could be a question, like: How do you like our service?
-2. **Body** - A short paragraph underneath the title, asking the customer to leave a review.
-3. **Footer** - This can be a disclaimer or legal info.
-4. **Button Label** - The button to submit the review.
-5. **Instructions** - Shown directly above the form after the customer selects a rating. It can be edited to display different copy based on the rating selected.
-6. **Links** - Buttons that link out to 3rd party review sites, shown after a customer selects a rating.
-7. **Redirects** - URLs that automatically redirect the customer to 3rd party review sites after they select a rating.
-8. **Fields** - Inputs shown on the form to leave a review or provide feedback. These inputs can capture more information from your customers about their experience with your service.
+1. Title - The first thing your customers will read. It could be a question, like: How do you like our service?
+2. Introduction - A short paragraph underneath the title, asking the customer to leave a review.
+3. Footer - This can be a disclaimer or legal info.
+4. Button Label - The button to submit the review.
+5. Instructions - Shown directly above the form after the customer selects a rating. It can be edited to display different copy based on the rating selected.
+6. Links - Buttons that link out to 3rd party review sites, shown after a customer selects a rating.
+7. Redirects - URLs that automatically redirect the customer to 3rd party review sites after they select a rating.
+8. Fields - Inputs shown on the form to leave a review or provide feedback. These inputs can capture more information from your customers about their experience with your service.
 
 ### Options
 
@@ -25,9 +26,9 @@ The review page is highly customizable. We typically want to display something d
 
 This option allows you to capture a rating immediately after a customer selects one. You have 3 options:
 
-* **Save rating before customer review** - Capture the rating only if the customer is directed to the page via an email, sms, or direct customer link.
-* **Save rating before every review** - Capture the rating any time anyone visits the page, even if they're using the review page link anonymously.&#x20;
-* **Never save rating before review** - Do not capture the rating, unless the customer leaves a written review or submits the feedback form.
+* Save rating before customer review - Capture the rating only if the customer is directed to the page via an email, sms, or direct customer link.
+* Save rating before every review - Capture the rating any time anyone visits the page, even if they're using the review page link anonymously.&#x20;
+* Never save rating before review - Do not capture the rating, unless the customer leaves a written review or submits the feedback form.
 
 #### Native Reviews
 
@@ -45,19 +46,21 @@ Set whether or not the customer can change their rating selection immediately af
 
 We offer a few options to change the appearance of your review page:
 
-* **Layout** - Choose between a centered layout or a split screen on wide devices.
-* **Background Color** - The color of the page background.
-* **Background Image** - An optional image to display in the background.
+* Layout - Choose between a centered layout or a split screen on wide devices.
+* Text Alignment - Choose between a left-aligned or center-aligned layout.
+* Font Family - Choose between an assortment of system or Google fonts.
+* Background Color - The color of the page background.
+* Background Image - An optional image to display in the background.
 
 ### Success Page
 
 This is the page that is displayed after a customer submits a review. You can customize it to suit your needs with the following options:
 
-* **Title** - The headline that is displayed after a review is given. For example, Thanks for your feedback!
-* **Confirmation Message** - A longer message shown after a review is submitted. It can be used to encourage customers to leave a review on a 3rd party site or to express an apology for a negative experience.
-* **Copied Message** - After a customer writes a review, if it is positive (a rating of 4 or 5), we will copy the text for them so they can paste it elsewhere. This is the message that is displayed to let them know.
-* **Button Label** - The success page has a button to direct the customer elsewhere when they are finished. You can edit the label.
-* **Button Link** - The URL for the button.
+* Title - The headline that is displayed after a review is given. For example, Thanks for your feedback!
+* Confirmation Message - A longer message shown after a review is submitted. It can be used to encourage customers to leave a review on a 3rd party site or to express an apology for a negative experience.
+* Copied Message - After a customer writes a review, if it is positive (a rating of 4 or 5), we will copy the text for them so they can paste it elsewhere. This is the message that is displayed to let them know.
+* Button Label - The success page has a button to direct the customer elsewhere when they are finished. You can edit the label.
+* Button Link - The URL for the button.
 
 ### QR Code
 
