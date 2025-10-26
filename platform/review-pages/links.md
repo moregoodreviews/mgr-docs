@@ -7,7 +7,7 @@ icon: link
 
 You can add links to 3rd party reviews sites to your review page. This is essential if you would like to get more good reviews on sites like Google, Facebook, Yelp, TripAdvisor, and more. Links appear on your review page as buttons, if the review is a positive one (typically a rating of 4 or 5, but you can customize this). If the review is not positive, by default, we will display a link revealer — a small button beneath the feedback form that gives the customer the option of leaving a public review.
 
-## Link Anatomy
+### Link Anatomy
 
 The buttons that appear on your review page are fully customizable. You can edit the following:
 
@@ -19,7 +19,7 @@ The buttons that appear on your review page are fully customizable. You can edit
 * **Link** - The URL to the 3rd party review site.
 * **Incentive** -  An optional incentive to display underneath the button.
 
-## Link Options
+### Link Options
 
 We give you full control over how the links are displayed to your customers.
 
