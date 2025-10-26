@@ -11,7 +11,7 @@ You can request reviews by embedding the ratings into your email signature. In y
 There is only one signature saved per project. If you make changes to it, it is saved for everyone that has access to the project.
 {% endhint %}
 
-## Customization Options
+### Customization Options
 
 You can customize your email signature in several ways:
 
@@ -26,7 +26,7 @@ You can customize your email signature in several ways:
 * Layout – Pick from five layouts featuring either faces or stars as rating icons.
 * Review Page – If multiple review pages exist in your project, select which one the signature should link to.
 
-## Layouts
+### Layouts
 
 You can select any of the following layouts for your signature:
 

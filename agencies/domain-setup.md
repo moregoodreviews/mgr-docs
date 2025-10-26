@@ -15,7 +15,7 @@ We offer the following options for the domain configuration:
 * Image URL Domain - Used for any images uploaded to the platform. Your clients may only see this domain if they inspect a page an image is loaded on.
 * API Domain - You may optionally white label our API if you plan to offer that to your clients.
 
-## Sending Domain Setup
+### Sending Domain Setup
 
 You will need to enter 4 DNS records to set up your sending domain. 2 TXT records and 2 MX records. This allows us to send emails on your behalf. We use a service called [Mailgun](https://www.mailgun.com/) to do this.
 
@@ -23,7 +23,7 @@ You will need to enter 4 DNS records to set up your sending domain. 2 TXT record
 If you do not add your own sending domain, all platform emails sent to your clients will come from notifications@mg.moregoodreviews.com.
 {% endhint %}
 
-## CNAME Setup
+### CNAME Setup
 
 Any domain that is not a sending domain is considered a CNAME. This means it is simply a subdomain you set up in your DNS that points to our platform. You will need to add 1 CNAME record and 1 TXT record per CNAME. After adding your domain in the console, a TXT record will be generated within a few minutes. This TXT record is required for SSL certificate issuance, enabling us to serve your assets securely over HTTPS.
 

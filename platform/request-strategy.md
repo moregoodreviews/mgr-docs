@@ -1,4 +1,5 @@
 ---
+description: Automate your review requests based on a strategy, or set of rules.
 icon: chess-rook
 ---
 

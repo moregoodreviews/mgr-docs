@@ -9,7 +9,7 @@ icon: paper-plane
 
 As an agency owner, you may customize the content of the emails that get sent to your clients from our platform. We offer an easy to way to edit the subject, title, body, and call-to-action of any of the templates we use to notify our own customers of platform events. To customize any of these templates, go to **Agency > Emails**.
 
-## Templates
+### Templates
 
 The following templates can be edited to suit the needs of your agency:
 
@@ -26,7 +26,7 @@ The following templates can be edited to suit the needs of your agency:
 11. Verify Email - Sent to any new user that signs up.
 12. Verify SMTP - If your client opts to use SMTP email sending, this will be notification email sent to verify the configuration is working.
 
-## Email Settings
+### Email Settings
 
 You can personalize the name and email address that your emails are sent from. By default, emails will be sent using your agency’s name and the address **notifications@yourdomain.com**. After connecting your own sending domain, you can modify the email address. Additionally, you have the option to include one or more reply-to addresses.
 

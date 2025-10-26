@@ -10,7 +10,7 @@ Available widget types:
 
 <table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Badge</strong></td><td>A compact style aggregate of your reviews.</td></tr><tr><td><strong>Carousel</strong></td><td>A rotating horizontal slider featuring hand-selected reviews.</td></tr><tr><td><strong>Dynamic Carousel</strong></td><td>A rotating horizontal slider that automatically updates to display the latest reviews.</td></tr><tr><td><strong>Corner</strong></td><td>A corner popup on your website displaying a rotating list of reviews.</td></tr><tr><td><strong>Faces</strong></td><td>The faces of the customers that left reviews.</td></tr><tr><td><strong>Headline</strong></td><td>An aggregate of all your reviews.</td></tr><tr><td><strong>Highlights</strong></td><td>A continuously scrolling display featuring hand-selected review highlights.</td></tr><tr><td><strong>Marquee</strong></td><td>A continuously scrolling display featuring hand-selected reviews.</td></tr><tr><td><strong>Spotlight</strong></td><td>A singular featured review with emphasis.</td></tr><tr><td><strong>Wall</strong></td><td>A paginated masonry grid layout that automatically updates to display the latest reviews.</td></tr></tbody></table>
 
-## Customizing Widgets
+### Customizing Widgets
 
 The left sidebar is composed of several expandable panels to help you filter and customize your widgets to fit your own unique branding and style guidelines. These options can vary depending on the widget you are building. The following is a list of all possible options available to you:
 
@@ -89,7 +89,7 @@ The left sidebar is composed of several expandable panels to help you filter and
 * Business Type - The business type for the markup.
 * Business Name - The business name for the markup.
 
-## Embedding Widgets
+### Embedding Widgets
 
 Embedding a widget on your website is as simple as copying and pasting a single line of code into your HTML or CMS. The code block is visible right in the footer of the builder.
 
@@ -113,7 +113,7 @@ If a div with id widget-container exists on your page, the widget will render th
 </body>
 ```
 
-## Restricting Widgets
+### Restricting Widgets
 
 #### Allowed Domains
 
@@ -123,6 +123,6 @@ By default, widgets can be embedded on any website. You can set allowed domains 
 
 By default, all widget text (excluding reviews, customer names, and sources) matches the visitor’s browser language. You can override this by setting a specific language instead of using auto-detect. When editing a widget, click on the Actions menu, and then Settings. Select a language from the dropdown menu.
 
-## Publishing Widgets
+### Publishing Widgets
 
 When editing widgets, all changes are applied live in real time. However, you can easily publish or unpublish a widget from the widget builder. Unpublishing a widget will hide it from your website while you continue working on it. If your account has a widget limit, any new widgets created beyond that limit will remain unpublished until you upgrade your plan.

@@ -4,7 +4,7 @@ icon: cloud
 
 # Adding Your Domain
 
-## Sending Domain
+### Sending Domain
 
 By default, all emails for a project will be sent from our own domain name. Since it is a shared system, the email address will follow this pattern for each new project:
 
@@ -20,17 +20,17 @@ Once all records are verified, the system will begin to send emails from your ow
 Please note that the domain won’t display a website, so visiting it in your browser won’t load a page. This is expected — the domain is used solely for sending emails.
 {% endhint %}
 
-### DMARC Record
+#### DMARC Record
 
 You will also need to add the suggested DMARC record to ensure your emails land in customer inboxes. DMARC is a way to stop fake emails that pretend to be from you. It checks if emails really come from your domain and can tell you when someone tries to fake it, helping keep your emails safe.
 
-## **CNAME - Customer Facing Pages**
+### **CNAME - Customer Facing Pages**
 
 Much like the sending domain, all customer facing pages, like your review pages and showcase pages, will be loaded from our own domain: moregoodreviews.com. This means the links in all your messages will have our domain name in them. If you don't mind that, you don't have to do anything. But if you want your links to match your brand, you should add a CNAME record in the [Domain Settings](https://moregoodreviews.com/settings/domain) section.
 
 Note that the example subdomain provided is “review” (singular). After adding your domain, a CNAME record will appear immediately, and a TXT record will show up a few minutes later. You must add both records to your DNS. Once verified, your customer-facing pages will use your own domain.
 
-### Troubleshooting
+#### Troubleshooting
 
 1. Have you added both the CNAME and TXT records? The TXT record may take a few minutes to appear after adding your CNAME domain in the console. It’s required for SSL, ensuring your pages load over https. A common issue is the page not loading correctly because the SSL certificate hasn’t been issued yet.
 2. If you are using Cloudfare, when entering your CNAME record, it is important your turn OFF the orange proxy switch. We use Cloudflare, and it cannot proxy to itself.

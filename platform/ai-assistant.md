@@ -9,11 +9,11 @@ icon: sparkles
 
 Every project comes with an AI Assistant that can help your customers write their reviews, and also help your team respond to their reviews. You can access it in your project settings, [here](https://moregoodreviews.com/settings/assistant).
 
-## Setup
+### Setup
 
 To use the AI Assistant, enter your business name and a brief description of your products or services. This information helps the AI create responses specific to your industry. You can also add a support email and/or phone number, which will only be included in replies to negative reviews to encourage customers to reach out for help.
 
-## AI Review Suggestions
+### AI Review Suggestions
 
 With AI Review Suggestions, your customers can generate between 1 - 5 suggestions to use for their review. If enabled, in both the AI Assistant and on your review page (in the AI Assistant settings of the page), a button will appear underneath the Review field to generate a review.
 
@@ -28,7 +28,7 @@ You can adjusted several parameters for your AI-generated reviews:
 AI Review Suggestions are currently only available when writing a native review on your review page. This feature will not be available to your customers if they are redirected to a 3rd party site after selecting a rating. However, if you use links on your review page, the customer may copy/paste the AI-generated review into a 3rd party site.
 {% endhint %}
 
-## AI Replies
+### AI Replies
 
 With AI Replies, you can instantly generate responses to your Google reviews. Each reply takes into account the rating, sentiment, and past responses. They follow clear guidelines to stay friendly and supportive, especially for customers who had a negative experience.
 
@@ -42,7 +42,7 @@ AI-generated replies are no more than 50 words. In addition, you can adjust seve
 You can only reply publicly to reviews using the Google My Business integration. Any review imported or synced via the integration can be replied to publicly on your Google listing from the platform.
 {% endhint %}
 
-### Automating Replies
+#### Automating Replies
 
 You can automate replies to all reviews on your Google My Business profile. Choose one of the following settings:
 
@@ -50,6 +50,6 @@ You can automate replies to all reviews on your Google My Business profile. Choo
 * Enable for positive reviews – automatically reply only to positive reviews.
 * Disable – turn off automatic replies.
 
-### Handling of Negative Reviews
+#### Handling of Negative Reviews
 
 If a customer leaves a negative review, the AI-generated reply can include your business email or phone number, inviting them to contact your support team directly.

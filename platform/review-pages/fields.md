@@ -9,7 +9,7 @@ icon: align-left
 
 By default, your review page will come with several fields. These fields are inputs for the customer to fill out, the most important one being the review (feedback) input.
 
-## Field Types
+### Field Types
 
 You can create fields with various types of inputs. We offer the following:
 
@@ -19,7 +19,7 @@ You can create fields with various types of inputs. We offer the following:
 * URL - An HTML input component for a URL.
 * Image - A file input that allows for the uploading of an image.
 
-## Default Fields
+### Default Fields
 
 The default fields are the ones that are added to your review page once it is created. These fields cannot be deleted, but you can disable them. These are the fields that capture your customer's name and contact info, along with their review or feedback. All of these fields will be shown to your customers for any rating by default.
 
@@ -30,11 +30,11 @@ The default fields are the ones that are added to your review page once it is cr
 * Company - The customer's company name. Disabled by default.
 * Review - The customer's review or feedback.
 
-## Custom Fields
+### Custom Fields
 
 You can add more fields to your review page by clicking the Add Field button while viewing your fields, then selecting a field type and providing a name. Once created, you can edit the field to configure additional options, and you can also reorder the fields to change the order in which they appear on your page.
 
-### Conditionally Displaying Custom Fields
+#### Conditionally Displaying Custom Fields
 
 Custom fields have the option of being displayed only when certain ratings are selected. When editing a custom field, you'll see a Visibility section that allows you to choose which ratings the field should be displayed on. This is useful for differentiating between a "feedback" form for negative ratings, and a "review" form for positive ones.
 
@@ -42,7 +42,7 @@ Custom fields have the option of being displayed only when certain ratings are s
 Custom fields are the only fields that can be deleted and set to conditionally display for each rating.
 {% endhint %}
 
-## Field Options
+### Field Options
 
 Every field has the following options available upon editing them:
 

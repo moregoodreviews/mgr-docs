@@ -6,7 +6,7 @@ icon: window-flip
 
 Every project has at least one review page. This is the page your customers are directed to from an email, SMS, or direct link. The review page captures a rating, and then displays a feedback form, links to 3rd party review sites, or simply redirects elsewhere based on the chosen rating. The review page is ultimately what drives your customers to give your business more good reviews.
 
-## The Basics
+### The Basics
 
 1. **Title** - The first thing your customers will read. It could be a question, like: How do you like our service?
 2. **Body** - A short paragraph underneath the title, asking the customer to leave a review.
@@ -17,7 +17,7 @@ Every project has at least one review page. This is the page your customers are 
 7. **Redirects** - URLs that automatically redirect the customer to 3rd party review sites after they select a rating.
 8. **Fields** - Inputs shown on the form to leave a review or provide feedback. These inputs can capture more information from your customers about their experience with your service.
 
-## Options
+### Options
 
 The review page is highly customizable. We typically want to display something different based on the sentiment given. For example, if the rating is negative, we might want to display a form to leave feedback. And if the rating is positive, we might want to display options to leave a review on a 3rd party website, or simply redirect there immediately. We offer several options to tailor the review page to meet your specific needs.
 
@@ -41,7 +41,7 @@ All reviews, including the negative reviews will go into the platform. There's n
 
 Set whether or not the customer can change their rating selection immediately after selecting one. They can still pick a new rating if they refresh the page.
 
-## Appearance
+### Appearance
 
 We offer a few options to change the appearance of your review page:
 
@@ -49,7 +49,7 @@ We offer a few options to change the appearance of your review page:
 * **Background Color** - The color of the page background.
 * **Background Image** - An optional image to display in the background.
 
-## Success Page
+### Success Page
 
 This is the page that is displayed after a customer submits a review. You can customize it to suit your needs with the following options:
 
@@ -59,6 +59,6 @@ This is the page that is displayed after a customer submits a review. You can cu
 * **Button Label** - The success page has a button to direct the customer elsewhere when they are finished. You can edit the label.
 * **Button Link** - The URL for the button.
 
-## QR Code
+### QR Code
 
 You can download a QR code to your review page with the following outputs: .svg (vector) or .png (raster). You can set a color for the code and optionally select a location for it, if you assigned locations to your form. A review page that points to a location will collect reviews for that location. Meaning any review given from that page will be assigned that location, allowing you to segment the results.
