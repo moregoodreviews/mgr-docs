@@ -32,9 +32,9 @@ AI Review Suggestions are currently only available when writing a native review 
 
 With AI Replies, you can instantly generate responses to your Google reviews. Each reply takes into account the rating, sentiment, and past responses. They follow clear guidelines to stay friendly and supportive, especially for customers who had a negative experience.
 
-AI-generated replies are no more than 50 words. In addition, you can adjust several parameters:
+AI-generated replies are no more than 50 words (or 20 words if no review text is provided). In addition, you can adjust several parameters:
 
-* Default Tone - Select from a list of tones to appear more personal: friendly, formal, empathetic, grateful, enthusiastic, casual, apologetic, informative, and humorous.
+* Tone - Select from a list of tones to appear more personal: friendly, formal, empathetic, grateful, enthusiastic, casual, apologetic, informative, and humorous.
 * Language - Choose from 10 available languages for your replies, or let the AI automatically respond in the customer’s language.
 * Keywords in Replies - Add specific keywords to your replies, when applicable, to help improve your listing’s SEO.
 
@@ -49,6 +49,11 @@ You can automate replies to all reviews on your Google My Business profile. Choo
 * Enable for all reviews – automatically reply to every review.
 * Enable for positive reviews – automatically reply only to positive reviews.
 * Disable – turn off automatic replies.
+
+If enabled, you can set a delay for your replies:
+
+* Minimal Delay - As soon as the review is imported.
+* 3, 6, 12, 24 Hours - Wait at least this long after a review is posted before sending a reply.
 
 #### Handling of Negative Reviews
 
