@@ -165,9 +165,10 @@ Updates a location.
 
 For requests that require pagination, a pagination key is added to the response. This key might look something like the following:
 
-<pre class="language-json"><code class="lang-json">"pagination": {
-<strong>  "current_page": 2,
-</strong>  "path": "https://api.moregoodreviews.com/beacon/customers",
+```json
+"pagination": {
+  "current_page": 2,
+  "path": "https://api.moregoodreviews.com/beacon/customers",
   "first_page_url": "https://api.moregoodreviews.com/beacon/customers?page=1",
   "last_page_url": "https://api.moregoodreviews.com/beacon/customers?page=3",
   "prev_page_url": "https://api.moregoodreviews.com/beacon/customers?page=1",
@@ -178,4 +179,4 @@ For requests that require pagination, a pagination key is added to the response.
   "per_page": 50,
   "last_page": 3
 }
-</code></pre>
+```
