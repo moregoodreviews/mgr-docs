@@ -14,19 +14,27 @@ Your account's request limit is shared across all of your projects, and thus all
 
 In addition to sending limits, you can put restrictions on the following project-level features. You may edit these features in Agency > Projects, and clicking on Actions > Manage Overrides.
 
-* **Customers** - The number of customers a client may add to their project.
-* **Locations** - The number of locations a client may add to their project.
-* **Tags** - The number of tags a client may add to their project, to be used to tag reviews.
-* **Links** - The number of links to 3rd party review sites  each review page may have.
-* **Powered by** - Display a “powered by” badge on your clients’ customer-facing emails, pages, and widgets.
+* Customers - The number of customers a client may add to their project.
+* Locations - The number of locations a client may add to their project.
+* Members - The number of members a client may invite to their project.
+* Tags - The number of tags a client may add to their project, to be used to tag reviews.
+* Widgets - The number of published widgets a client may add to their project.
+* Links - The number of links to 3rd party review sites  each review page may have.
+* API - Indicates if the project can access the REST API and app connectors.
+* Webhooks - Indicates if the project can publish data to webhooks.
+* Powered by - Display a “powered by” badge on your clients’ customer-facing emails, pages, and widgets.
 
 If left blank, each project feature will fall back to our system settings:
 
-* **Customers** - 1,000,000
-* **Locations** - 1,000
-* **Tags** - 100
-* **Links** - 20
-* **Powered by** - Hide
+* Customers - 1,000,000
+* Locations - 1,000
+* Members - 100
+* Tags - 100
+* Widgets - 100
+* Links - 20
+* API - Enabled
+* Webhooks - Enabled
+* Powered by - Hidden
 
 {% hint style="info" %}
 If you enter a feature limit above our system settings, it will return an error. If you need any of these limits raised, just reach out to support.
