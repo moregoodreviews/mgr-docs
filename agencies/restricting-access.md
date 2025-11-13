@@ -26,15 +26,17 @@ In addition to sending limits, you can put restrictions on the following project
 
 If left blank, each project feature will fall back to our system settings:
 
-* Customers - 1,000,000
-* Locations - 1,000
-* Members - 100
-* Tags - 100
-* Widgets - 100
-* Links - 20
-* API - Enabled
-* Webhooks - Enabled
-* Powered by - Hidden
+| Feature    | DefaultLimit |
+| ---------- | ------------ |
+| Customers  | 1,000,000    |
+| Locations  | 1,000        |
+| Members    | 100          |
+| Tags       | 100          |
+| Widgets    | 100          |
+| Links      | 20           |
+| API        | Enabled      |
+| Webhooks   | Enabled      |
+| Powered by | Hidden       |
 
 {% hint style="info" %}
 If you enter a feature limit above our system settings, it will return an error. If you need any of these limits raised, just reach out to support.
