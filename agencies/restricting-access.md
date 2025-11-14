@@ -14,29 +14,9 @@ Your account's request limit is shared across all of your projects, and thus all
 
 In addition to sending limits, you can put restrictions on the following project-level features. You may edit these features in Agency > Projects, and clicking on Actions > Manage Overrides.
 
-* Customers - The number of customers a client may add to their project.
-* Locations - The number of locations a client may add to their project.
-* Members - The number of members a client may invite to their project.
-* Tags - The number of tags a client may add to their project, to be used to tag reviews.
-* Widgets - The number of published widgets a client may add to their project.
-* Links - The number of links to 3rd party review sites  each review page may have.
-* API - Indicates if the project can access the REST API and app connectors.
-* Webhooks - Indicates if the project can publish data to webhooks.
-* Powered by - Display a “powered by” badge on your clients’ customer-facing emails, pages, and widgets.
+If left blank, each project feature will fall back to our default setting.
 
-If left blank, each project feature will fall back to our system settings:
-
-| Feature    | DefaultLimit |
-| ---------- | ------------ |
-| Customers  | 1,000,000    |
-| Locations  | 1,000        |
-| Members    | 100          |
-| Tags       | 100          |
-| Widgets    | 100          |
-| Links      | 20           |
-| API        | Enabled      |
-| Webhooks   | Enabled      |
-| Powered by | Hidden       |
+<table><thead><tr><th width="100" valign="top">Feature</th><th valign="top">Description</th><th width="100" valign="top">Default</th></tr></thead><tbody><tr><td valign="top">Customers</td><td valign="top">The number of customers a client may add to their project.</td><td valign="top">1,000,000</td></tr><tr><td valign="top">Locations</td><td valign="top">The number of locations a client may add to their project.</td><td valign="top">1,000</td></tr><tr><td valign="top">Members</td><td valign="top">The number of members a client may invite to their project.</td><td valign="top">100</td></tr><tr><td valign="top">Tags</td><td valign="top">The number of tags a client may add to their project, to be used to tag reviews.</td><td valign="top">100</td></tr><tr><td valign="top">Widgets</td><td valign="top">The number of published widgets a client may add to their project.</td><td valign="top">100</td></tr><tr><td valign="top">Links</td><td valign="top">The number of links to 3rd party review sites  each review page may have.</td><td valign="top">20</td></tr><tr><td valign="top">API</td><td valign="top">Indicates if the project can access the REST API and app connectors.</td><td valign="top">Enabled</td></tr><tr><td valign="top">Webhooks</td><td valign="top">Indicates if the project can publish data to webhooks.</td><td valign="top">Enabled</td></tr><tr><td valign="top">Powered by</td><td valign="top">Display a “powered by” badge on your clients’ customer-facing emails, pages, and widgets.</td><td valign="top">Hidden</td></tr></tbody></table>
 
 {% hint style="info" %}
 If you enter a feature limit above our system settings, it will return an error. If you need any of these limits raised, just reach out to support.
