@@ -2,7 +2,7 @@
 description: >-
   Manage and customize the content and settings of your email notifications from
   the platform.
-icon: paper-plane
+icon: envelope
 ---
 
 # Email Templates

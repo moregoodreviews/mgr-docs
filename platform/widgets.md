@@ -8,7 +8,7 @@ You can display your reviews on your website using our custom widget builder. We
 
 Available widget types:
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Badge</strong></td><td>A compact style aggregate of your reviews.</td></tr><tr><td><strong>Carousel</strong></td><td>A rotating horizontal slider featuring hand-selected reviews.</td></tr><tr><td><strong>Dynamic Carousel</strong></td><td>A rotating horizontal slider that automatically updates to display the latest reviews.</td></tr><tr><td><strong>Corner</strong></td><td>A corner popup on your website displaying a rotating list of reviews.</td></tr><tr><td><strong>Faces</strong></td><td>The faces of the customers that left reviews.</td></tr><tr><td><strong>Headline</strong></td><td>An aggregate of all your reviews.</td></tr><tr><td><strong>Highlights</strong></td><td>A continuously scrolling display featuring hand-selected review highlights.</td></tr><tr><td><strong>Marquee</strong></td><td>A continuously scrolling display featuring hand-selected reviews.</td></tr><tr><td><strong>Spotlight</strong></td><td>A singular featured review with emphasis.</td></tr><tr><td><strong>Wall</strong></td><td>A paginated masonry grid layout that automatically updates to display the latest reviews.</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Badge</strong></td><td>A compact style aggregate of your reviews.</td></tr><tr><td><strong>Carousel</strong></td><td>A rotating horizontal slider featuring hand-selected reviews.</td></tr><tr><td><strong>Dynamic Carousel</strong></td><td>A rotating horizontal slider that automatically updates to display the latest reviews.</td></tr><tr><td><strong>Corner</strong></td><td>A corner popup on your website displaying a rotating list of reviews.</td></tr><tr><td><strong>Dynamic Corner</strong></td><td>A corner popup on your website that automatically updates to display the latest reviews.</td></tr><tr><td><strong>Faces</strong></td><td>The faces of the customers that left reviews.</td></tr><tr><td><strong>Headline</strong></td><td>An aggregate of all your reviews.</td></tr><tr><td><strong>Highlights</strong></td><td>A continuously scrolling display featuring hand-selected review highlights.</td></tr><tr><td><strong>Marquee</strong></td><td>A continuously scrolling display featuring hand-selected reviews.</td></tr><tr><td><strong>Spotlight</strong></td><td>A singular featured review with emphasis.</td></tr><tr><td><strong>Wall</strong></td><td>A paginated masonry grid layout that automatically updates to display the latest reviews.</td></tr></tbody></table>
 
 ### Customizing Widgets
 
@@ -66,6 +66,10 @@ The left sidebar is composed of several expandable panels to help you filter and
 * Autoplay Delay - The timing between slide transitions.
 * Pagination - Show arrows, dots, or hide pagination.
 * Max Slides - The maximum number of slides to display on a page.
+
+**Animation**
+
+* Delay - Seconds to wait before showing each review.
 
 **Marquee**
 
