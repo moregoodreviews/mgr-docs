@@ -133,7 +133,7 @@ Creates a location for a project.
 | address2      | string | Address line 2.                                                |
 | city          | string | The city or town.                                              |
 | state         | string | The state or region.                                           |
-| zip           | string | The postal code.                                               |
+| postal\_code  | string | The postal code.                                               |
 
 </details>
 
@@ -157,7 +157,7 @@ Updates a location.
 | address2      | string | Address line 2.                                                |
 | city          | string | The city or town.                                              |
 | state         | string | The state or region.                                           |
-| zip           | string | The postal code.                                               |
+| postal\_code  | string | The postal code.                                               |
 
 </details>
 
