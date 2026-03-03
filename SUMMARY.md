@@ -10,7 +10,7 @@
   * [Members](platform/projects/members.md)
   * [Tags](platform/projects/tags.md)
   * [Signatures](platform/projects/signatures.md)
-  * [Analytics](platform/analytics.md)
+  * [Analytics](platform/projects/analytics.md)
   * [Webhooks](platform/projects/webhooks.md)
 * [Review Pages](platform/review-pages/README.md)
   * [Links](platform/review-pages/links.md)
