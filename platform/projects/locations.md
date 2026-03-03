@@ -3,7 +3,7 @@ description: >-
   Create and manage locations for multi-location businesses. Assign review
   pages, filter data by location, and attribute reviews and feedback to
   specific stores or branches.
-icon: map-marker-alt
+icon: map-marker
 ---
 
 # Locations
