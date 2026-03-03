@@ -11,6 +11,7 @@
   * [Members](platform/projects/members.md)
   * [Messages](platform/projects/messages.md)
   * [Ratings](platform/projects/ratings.md)
+  * [Locations](platform/projects/locations.md)
   * [Sources](platform/projects/sources.md)
   * [Tags](platform/projects/tags.md)
   * [Signatures](platform/projects/signatures.md)
