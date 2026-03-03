@@ -55,7 +55,3 @@ You can pause or unpause a project from the dashboard using the automatic review
 ### Working With Your Team
 
 If you want others to help manage a project, you can invite them as members. Members can have different roles—from full access to view-only—and you can control which projects each person can see.
-
-{% content-ref url="projects/members.md" %}
-Learn about members and roles
-{% endcontent-ref %}

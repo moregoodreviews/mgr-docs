@@ -57,12 +57,6 @@ Each feature doc should include:
   {% endtab %}
   {% endtabs %}
 ```
-- Use content refs to link to related pages:
-```
-  {% content-ref url="related-feature.md" %}
-  related-feature.md
-  {% endcontent-ref %}
-```
 - All standard Markdown is valid — use it for headings, lists, bold, and tables
 
 ## Output Location

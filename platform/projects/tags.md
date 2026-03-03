@@ -58,11 +58,3 @@ You can add or remove tags on any review:
 **Widgets** – When building a widget, use the **Tags** filter to show only reviews that have certain tags.
 
 **Showcase** – In Settings > Showcase > Filters, you can limit which reviews appear on your showcase by selecting one or more tags.
-
-{% content-ref url="../widgets.md" %}
-Filter widgets by tags
-{% endcontent-ref %}
-
-{% content-ref url="../ai-assistant.md" %}
-AI Assistant
-{% endcontent-ref %}

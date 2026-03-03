@@ -77,7 +77,3 @@ To remove someone from the project:
 3. Confirm the action.
 
 They’ll lose access to this project immediately. If they had access to other projects, those are unaffected. Only owners and admins can remove members.
-
-{% content-ref url="../projects.md" %}
-Projects
-{% endcontent-ref %}

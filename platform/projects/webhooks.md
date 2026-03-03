@@ -59,7 +59,3 @@ Webhooks are a paid feature. If you don’t see the option to add webhooks, you 
 * **Turn off** – Use the switch next to a webhook to pause it. No events are sent while it’s off. Turn it back on when you’re ready.
 * **Edit** – Change the URL or choose which event types to receive. By default, a webhook receives all events. When editing, you can uncheck events you don’t need so only the relevant ones are sent.
 * **Delete** – Remove a webhook from the actions menu when you no longer need it.
-
-{% content-ref url="../api-reference.md" %}
-API Reference
-{% endcontent-ref %}
