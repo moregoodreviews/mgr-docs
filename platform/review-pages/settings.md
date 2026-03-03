@@ -2,7 +2,7 @@
 description: >-
   Configure the template, instructions, rating options, and email notifications
   for your review page.
-icon: settings
+icon: cog
 ---
 
 # Settings
