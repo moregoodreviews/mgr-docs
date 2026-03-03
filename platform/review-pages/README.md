@@ -1,67 +1,57 @@
 ---
-description: Customizable pages where you can request reviews from your customers.
+description: Customizable pages where customers leave ratings and reviews.
 icon: window-flip
 ---
 
 # Review Pages
 
-Every project has at least one review page. This is the page your customers are directed to from an email, SMS, or direct link. The review page captures a rating, and then displays a feedback form, links to 3rd party review sites, or simply redirects elsewhere based on the chosen rating. The review page is ultimately what drives your customers to give your business more good reviews.
+A review page is where your customers land when they click a link from an email, SMS, or your website. They select a rating (e.g., faces or stars), then see a feedback form, links to third-party review sites, or a redirect—depending on how you've configured the page. Review pages are the core of collecting feedback and driving customers to leave reviews on Google, Yelp, and other sites.
 
-### The Basics
+### Where to Find Review Pages
 
-1. Title - The first thing your customers will read. It could be a question, like: How do you like our service?
-2. Introduction - A short paragraph underneath the title, asking the customer to leave a review.
-3. Footer - This can be a disclaimer or legal info.
-4. Button Label - The button to submit the review.
-5. Instructions - Shown directly above the form after the customer selects a rating. It can be edited to display different copy based on the rating selected.
-6. Links - Buttons that link out to 3rd party review sites, shown after a customer selects a rating.
-7. Redirects - URLs that automatically redirect the customer to 3rd party review sites after they select a rating.
-8. Fields - Inputs shown on the form to leave a review or provide feedback. These inputs can capture more information from your customers about their experience with your service.
+Click **Review Pages** in the sidebar. You'll see a list of your review pages. Click one to edit it. Each review page has a sidebar with sections: **Settings**, **Appearance**, **Success Page**, **Links**, **Redirects**, **Fields**, **Locations** (if you have locations), **QR Code**, **AI Assistant**, and **Code Editor**.
 
-### Options
+Use **Preview** in the top bar to see how the page looks to customers. You can preview the standard review page or the kiosk page (a simplified view for in-store tablets or displays).
 
-The review page is highly customizable. We typically want to display something different based on the sentiment given. For example, if the rating is negative, we might want to display a form to leave feedback. And if the rating is positive, we might want to display options to leave a review on a 3rd party website, or simply redirect there immediately. We offer several options to tailor the review page to meet your specific needs.
+---
 
-#### Rating Selection
+### Creating and Managing Review Pages
 
-This option allows you to capture a rating immediately after a customer selects one. You have 3 options:
+* **Add** – Create a new review page. Give it a name and configure it.
+* **Default** – One review page can be the default. It's used when no other page is assigned (e.g., for a customer or location).
+* **Duplicate** – Copy an existing review page to use as a starting point.
+* **Delete** – Remove a review page. Your default page cannot be deleted until you set another as default.
 
-* Save rating before customer review - Capture the rating only if the customer is directed to the page via an email, sms, or direct customer link.
-* Save rating before every review - Capture the rating any time anyone visits the page, even if they're using the review page link anonymously.&#x20;
-* Never save rating before review - Do not capture the rating, unless the customer leaves a written review or submits the feedback form.
+You can filter the list by location or by whether the page has links or redirects.
 
-#### Native Reviews
+---
 
-You can decide whether or not you would like to accept native reviews (testimonials). If you disable native reviews, you will need to have added 1 or more links to your page, otherwise there will be nothing to display after the customer selects a rating. If native reviews are disabled, we will display one or more links to 3rd party review sites for the customer to leave their positive review. If the review is negative, we will still display a form asking for their review (feedback).
+### What Each Section Does
+
+| Section | Purpose |
+|---------|---------|
+| [Settings](settings.md) | Title, introduction, footer, button label, instructions per rating, rating options, and email notifications |
+| [Appearance](appearance.md) | Layout, alignment, fonts, background color, and background image |
+| [Success Page](success.md) | What customers see after submitting a review |
+| [Links](links.md) | Buttons that link to third-party review sites (Google, Yelp, etc.) |
+| [Redirects](redirects.md) | Automatic redirects to review sites after a rating is selected |
+| [Fields](fields.md) | Form inputs for name, email, review text, and custom fields |
+| [Locations](locations.md) | Assign locations to this page and enable the location picker |
+| [QR Code](qr-code.md) | Download a QR code that links to your review page |
+
+---
+
+### The Customer Flow
+
+1. Customer receives a link (from email, SMS, or in person).
+2. They open the review page and see your title and introduction.
+3. They select a rating (e.g., tap a face or star).
+4. Depending on your setup, they may see:
+   * A form to leave feedback or a review
+   * Buttons to leave a review on Google, Yelp, etc.
+   * An automatic redirect to a review site
+5. After submitting, they see the success page.
 
 {% hint style="info" %}
-All reviews, including the negative reviews will go into the platform. There's no separation between feedback and a review. So if a customer selects a negative rating, you may still see a 1 or 2-star review in the platform, but you can hide it from your showcase and widgets.
+All reviews—positive and negative—are stored in the platform. You can hide negative reviews from your [Showcase](../showcase.md) and widgets, but they remain in your data for follow-up and improvement.
 {% endhint %}
-
-#### Editable Ratings
-
-Set whether or not the customer can change their rating selection immediately after selecting one. They can still pick a new rating if they refresh the page.
-
-### Appearance
-
-We offer a few options to change the appearance of your review page:
-
-* Layout - Choose between a centered layout or a split screen on wide devices.
-* Text Alignment - Choose between a left-aligned or center-aligned layout.
-* Font Family - Choose between an assortment of system or Google fonts.
-* Background Color - The color of the page background.
-* Background Image - An optional image to display in the background.
-
-### Success Page
-
-This is the page that is displayed after a customer submits a review. You can customize it to suit your needs with the following options:
-
-* Title - The headline that is displayed after a review is given. For example, Thanks for your feedback!
-* Confirmation Message - A longer message shown after a review is submitted. It can be used to encourage customers to leave a review on a 3rd party site or to express an apology for a negative experience.
-* Copied Message - After a customer writes a review, if it is positive (a rating of 4 or 5), we will copy the text for them so they can paste it elsewhere. This is the message that is displayed to let them know.
-* Button Label - The success page has a button to direct the customer elsewhere when they are finished. You can edit the label.
-* Button Link - The URL for the button.
-
-### QR Code
-
-You can download a QR code to your review page with the following outputs: .svg (vector) or .png (raster). You can set a color for the code and optionally select a location for it, if you assigned locations to your form. A review page that points to a location will collect reviews for that location. Meaning any review given from that page will be assigned that location, allowing you to segment the results.
