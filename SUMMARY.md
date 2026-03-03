@@ -29,12 +29,18 @@
 * [Importing Reviews](platform/importing-reviews.md)
 * [Adding Your Domain](platform/adding-your-domain.md)
 * [Request Strategy](platform/request-strategy.md)
-* [Integrations](platform/integrations.md)
 * [Showcase](platform/showcase.md)
 * [Widgets](platform/widgets.md)
 * [API Reference](platform/api-reference.md)
 * [AI Assistant](platform/ai-assistant.md)
+* [Integrations](platform/integrations.md)
 * [Exporting Your Data](platform/exporting-your-data.md)
+
+## Accounts
+
+* [Profile and Settings](accounts/profile-and-settings.md)
+* [Spaces and Projects](accounts/spaces-and-projects.md)
+* [Billing and Upgrading](accounts/billing-and-upgrading.md)
 
 ## SMS
 
