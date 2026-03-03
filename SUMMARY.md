@@ -4,6 +4,7 @@
 
 * [Welcome](README.md)
 * [Importing Customers](platform/importing-customers.md)
+* [Importing Reviews](platform/importing-reviews.md)
 * [Adding Your Domain](platform/adding-your-domain.md)
 * [Request Strategy](platform/request-strategy.md)
 * [Projects](platform/projects.md)
@@ -32,6 +33,7 @@
 * [Widgets](platform/widgets.md)
 * [API Reference](platform/api-reference.md)
 * [AI Assistant](platform/ai-assistant.md)
+* [Exporting Your Data](platform/exporting-your-data.md)
 
 ## SMS
 
