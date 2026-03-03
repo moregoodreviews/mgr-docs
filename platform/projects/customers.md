@@ -42,7 +42,7 @@ Select one or more customers using the checkboxes. When you have rows selected, 
 * **Request reviews** – Schedule a review request for all selected customers.
 * **Edit customers** – Update details (such as tags or location) for all selected customers.
 * **Unsubscribe customers** – Mark them as unsubscribed so they no longer receive messages.
-* **Export** – Export the selected customers as a CSV. See [Exporting Your Data](../exporting-your-data.md) for details.
+* **Export** – Export the selected customers as a CSV. See [Exporting](../exporting.md) for details.
 * **Delete customers** – Permanently remove them from your project.
 
 ---
@@ -74,5 +74,5 @@ To add customers to your project, use **Add** on the Customers page or see [Impo
 {% endhint %}
 
 {% hint style="info" %}
-To export customers, select rows and choose **Export** from the bulk action menu, or use **Export All** in the pagination area. See [Exporting Your Data](../exporting-your-data.md) for details.
+To export customers, select rows and choose **Export** from the bulk action menu, or use **Export All** in the pagination area. See [Exporting](../exporting.md) for details.
 {% endhint %}

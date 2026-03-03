@@ -48,7 +48,7 @@ Select one or more reviews using the checkboxes. When you have rows selected, a 
 
 * **Edit reviews** – Update details (source, location, tags, date) for all selected reviews.
 * **Edit visibility** – Hide or show the selected reviews on your [Showcase](../showcase.md) and widgets.
-* **Export** – Export the selected reviews as a CSV. See [Exporting Your Data](../exporting-your-data.md) for details.
+* **Export** – Export the selected reviews as a CSV. See [Exporting](../exporting.md) for details.
 * **Delete reviews** – Permanently remove them from your project.
 
 ---
@@ -73,7 +73,7 @@ To bring in reviews from Google, Facebook, or other sites, see [Importing Review
 {% endhint %}
 
 {% hint style="info" %}
-To export reviews, select rows and choose **Export** from the bulk action menu, or use **Export All** in the pagination area. See [Exporting Your Data](../exporting-your-data.md) for details.
+To export reviews, select rows and choose **Export** from the bulk action menu, or use **Export All** in the pagination area. See [Exporting](../exporting.md) for details.
 {% endhint %}
 
 {% hint style="info" %}

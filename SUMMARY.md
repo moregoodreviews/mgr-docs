@@ -34,7 +34,7 @@
 * [API Reference](platform/api-reference.md)
 * [AI Assistant](platform/ai-assistant.md)
 * [Integrations](platform/integrations.md)
-* [Exporting Your Data](platform/exporting-your-data.md)
+* [Exporting](platform/exporting.md)
 
 ## Importing
 

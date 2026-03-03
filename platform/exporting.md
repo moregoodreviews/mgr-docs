@@ -5,7 +5,7 @@ description: >-
 icon: file-export
 ---
 
-# Exporting Your Data
+# Exporting
 
 You can export your customers and reviews from MGR as CSV files. Exports run in the background, and a download link is sent to your email when the file is ready. This page explains where to find the export options and what to expect.
 
