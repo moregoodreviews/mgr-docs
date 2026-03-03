@@ -1,78 +1,164 @@
 ---
+description: >-
+  Bring your customers into MGR so you can request reviews. Import via CSV,
+  integrations, BCC, manual entry, or the REST API.
 icon: file-import
 ---
 
 # Importing Customers
 
-### Getting Started
+To request reviews from your customers, you need to bring them into MGR first. This page explains what data you need, where to find the import options, and how each method works.
 
-In order for MGR to request reviews from your customers, we need to import some data:
+### Where to Import
+
+Go to **Customers** in the sidebar and click **Add**. A modal opens with tabs for each import method: **Manual Entry**, **Upload CSV**, **Integrations**, and **BCC** (if available). You can also open a specific tab directly—for example, add `?import=csv` to the Customers page URL to open the CSV tab.
+
+---
+
+### What Data You Need
+
+#### Required for Sending Messages
+
+You need at least one way to reach each customer:
+
+* **Email** – For sending review requests and reminders by email.
+* **Phone** – For sending review requests and reminders by SMS. Use a full number with country code (e.g., +18888888888).
+
+Without an email or phone number, MGR cannot send messages to that customer.
 
 #### Customer Data
 
-1. Name - The customer's name.
-2. Email - The customer's email address.
-3. Phone - The customer's phone number.
-4. Company - The customer's company name.
-5. Signup Date - The date a customer joined or paid for your service, typically used as the trigger that initiates a review request.
+| Field | Purpose |
+|-------|---------|
+| **Name** | First and last name. Used in messages and to identify customers. |
+| **Email** | Required for email requests. |
+| **Phone** | Required for SMS requests. |
+| **Company** | Optional. Shown on customer profiles. |
+| **Signup Date** | The date that triggers your request strategy. See below. |
 
-We need this data to send messages, but why the signup date? In your request strategy, you can set how many minutes, hours, or days to wait to send a message after the customer signs up. Think of it as a "trigger" date. It is the date used to ultimately trigger the sending of messages to a customer.
+#### Why the Signup Date Matters
+
+Your [Request Strategy](request-strategy.md) decides when to send the first review request. You can set a delay such as "14 days after signup" or "2 hours after charge." The **signup date** is the date used when the trigger is "send after a date." Think of it as the start date for that customer—when they joined, paid, or completed a purchase. If you leave it blank, today's date is used.
 
 #### Charge History (Optional)
 
-1. Charge Date - When the customer was charged.
-2. Charge Amount - How much the customer was charged.
-3. Subscription Info - Whether or not the customer has a subscription.
+If you connect Stripe, charge history is imported automatically. You can also send it via an app connector or the REST API. Charge history lets you target customers in your request strategy—for example, only request reviews from customers who have made at least 3 charges, spent $100 or more, or have an active subscription. This helps you focus on customers who are more likely to leave positive reviews.
 
-We automatically save charge history if you connect a Stripe account, but you can also send it in via an app connector or our REST API. Why do we need charge history? You can tailor your request strategy to only request reviews from customers who have made at least 3 charges, for example. Or spent at least $100, or have an average charge of $20, or have an active subscription. This helps you better target customers who are likely to leave positive reviews.
+---
 
-### Import Options
-
-#### Stripe
-
-Automatically import your Stripe customers with charge history. Perfect for requesting reviews from  paying customers or customers on a subscription.
-
-#### HubSpot
-
-Automatically import your HubSpot contacts. You can choose which contacts to import by their lifecycle stage, or sync them all.
-
-#### App Connector
-
-We have integrations with: [Zapier](https://zapier.com/apps/more-good-reviews/integrations), [Pabbly](https://accounts.pabbly.com/login/?s=connect\&pl=https://connect.pabbly.com/share-app/CUFRYwBlVTdTGARADkEHYltIBzACXlNpVUVUXQFkB0EHKAlBBmwKFQx3U0UHf1VmAG0), [Make](https://www.make.com/en/hq/app-invitation/0b3a8c3446b8c2f7cfc1acdcf434104c), [Boost.space](https://integrator.boost.space/app/invite/096ef2f6f3a68a7099ad125c107a69cf)
-
-Send customer data into MGR from thousands of 3rd party apps and CRMs with an app connector. If you are not familiar with using APIs, this solution is perfect for you, and it will allow to work with just about any service to get your customer data into the platform.
-
-#### Email BCC
-
-Each project has a specific BCC email. Use this email in the BCC field when sending receipts or invoices to customers. This automatically imports their name and email address. This option will not be available if you use your SMTP credentials for sending emails.
-
-#### REST API
-
-Send customer data from your server with our simple REST API. We offer endpoints for importing customers and charges. Check out our [API Reference](api-reference.md).
-
-#### CSV Upload
-
-You can upload a CSV file to import thousands of customer records at once. It is a convenient way to get started quickly. We accept the following values:
-
-| Header         | Value                                                                                           |
-| -------------- | ----------------------------------------------------------------------------------------------- |
-| first\_name\*  | The customer’s first name.                                                                      |
-| last\_name     | The customer’s last name.                                                                       |
-| email          | The customer’s email address.                                                                   |
-| phone          | The customer’s phone number.                                                                    |
-| company        | The customer’s company name.                                                                    |
-| location       | The slug or UUID of a [location](https://www.moregoodreviews.test.com:8090/settings/locations). |
-| signed\_up\_at | The customer’s start date. YYYY-MM-DD                                                           |
-
-{% hint style="info" %}
-Download an example CSV template, [here](https://moregoodreviews.com/csv/customers.csv).
-{% endhint %}
+### Import Methods
 
 #### Manual Entry
 
-You can manually enter customer data directly in our app. While it is not an automated solution, it is a simple way to get started. Just click the Import button on the [Customers](https://moregoodreviews.com/customers?import=1) page.
+Add one customer at a time. Fill in their name, email, phone, company, location (if you use locations), tags, and signup date. You can optionally schedule a review request immediately and choose the channel (email or SMS), reminders, and review page.
+
+{% hint style="info" %}
+Manual entry is ideal when you have a few customers or want to add someone quickly. For larger lists, use CSV or an integration.
+{% endhint %}
+
+#### CSV Upload
+
+Upload a CSV file to import up to 1,000 customers at once. The import runs in the background; you'll see a confirmation when it's scheduled. Customers appear in your list shortly after.
+
+**Steps:**
+
+1. Go to **Customers** and click **Add**.
+2. Open the **Upload CSV** tab.
+3. Click **Download Template** to get a sample file with the correct headers.
+4. Fill in your data and save as CSV (UTF-8).
+5. Click **Upload CSV** and select your file.
+
+**CSV Headers**
+
+| Header | Required | Description |
+|--------|----------|-------------|
+| first_name | Yes | The customer's first name. |
+| last_name | No | The customer's last name. |
+| email | No | The customer's email address. |
+| phone | No | The customer's phone number. |
+| company | No | The customer's company name. |
+| location | No | The slug or UUID of a location. Must match a location in **Settings > Locations**. |
+| notes | No | Internal notes (not shown to customers). |
+| tags | No | Comma-separated list of tag slugs. Tags must exist in your project and be for customers. |
+| signed_up_at | No | The customer's start date. Use YYYY-MM-DD format. |
+| address1 | No | Address line 1. |
+| address2 | No | Address line 2. |
+| city | No | City or locality. |
+| state | No | State or region. |
+| postal_code | No | Postal or ZIP code. |
+
+{% hint style="warning" %}
+Each row must have either an email or a phone number. Duplicate emails or phones in your project will update the existing customer instead of creating a new one.
+{% endhint %}
+
+{% hint style="info" %}
+Download an example CSV template from [moregoodreviews.com/csv/customers.csv](https://moregoodreviews.com/csv/customers.csv).
+{% endhint %}
+
+#### Stripe
+
+Connect your Stripe account to automatically import customers and their charge history. Ideal if you want to request reviews from paying customers or subscribers. Set up the connection under **Settings > Integrations**.
+
+#### HubSpot
+
+Connect HubSpot to import contacts. You can choose which contacts to import by lifecycle stage or sync them all. Set up under **Settings > Integrations**.
+
+#### App Connectors (Zapier, Make, Pabbly, Boost.space)
+
+Use an app connector to send customer data from thousands of apps and CRMs into MGR. No coding required. Useful if your CRM or tool isn't natively supported. Set up under **Settings > Integrations**.
+
+Connectors: [Zapier](https://zapier.com/apps/more-good-reviews/integrations), [Pabbly Connect](https://accounts.pabbly.com/login/?s=connect&pl=https://connect.pabbly.com/share-app/CUFRYwBlVTdTGARADkEHYltIBzACXlNpVUVUXQFkB0EHKAlBBmwKFQx3U0UHf1VmAG0), [Make](https://www.make.com/en/hq/app-invitation/0b3a8c3446b8c2f7cfc1acdcf434104c), [Boost.space](https://integrator.boost.space/app/invite/096ef2f6f3a68a7099ad125c107a69cf).
+
+#### Email BCC
+
+Each project has a unique BCC email address. When you send receipts, invoices, or other emails to customers, add this address in the BCC field. MGR will import the recipient's name and email from each email automatically.
+
+**How to use it:**
+
+1. Go to **Customers** and click **Add**.
+2. Open the **BCC** tab.
+3. Copy the BCC email address shown.
+4. Add it to the BCC field in your email system when sending to customers.
+
+{% hint style="warning" %}
+The BCC option is only available when your project uses the platform's email delivery (not your own SMTP). If you send via your own SMTP server, BCC import may not work.
+{% endhint %}
+
+{% hint style="info" %}
+BCC is great for businesses that already email customers (e.g., receipts or invoices). Each time you send, new customers are imported without extra steps.
+{% endhint %}
+
+#### REST API
+
+Send customer data from your own server using the REST API. Endpoints are available for importing customers and charges. See the [API Reference](api-reference.md) for details.
+
+---
+
+### After Import
+
+* **CSV imports** – The import runs in the background. You may receive an email when it completes. Customers appear on the Customers page as they are processed.
+* **Integrations** – Stripe and HubSpot sync continuously. New and updated customers are imported automatically.
+* **BCC** – Each BCC'd email creates or updates a customer as soon as the email is received.
+* **Manual entry** – The customer appears immediately.
+
+Once customers are in your project, configure your [Request Strategy](request-strategy.md) and turn on automatic review collection to start requesting reviews. You can also send manual review requests from individual customer profiles.
+
+---
+
+### Tips
+
+{% hint style="success" %}
+Use the signup date to control when each customer gets their first request. For example, set it to the date they made a purchase so your "7 days after signup" delay sends the request 7 days after that purchase.
+{% endhint %}
+
+{% hint style="info" %}
+If you have multiple locations, include the `location` column in your CSV with the correct slug or UUID. Customers will be assigned to that location for filtering and reporting.
+{% endhint %}
+
+{% hint style="info" %}
+Tags in the CSV must use tag slugs (the URL-friendly name) and must already exist in your project under Settings > Tags. Use comma-separated values for multiple tags.
+{% endhint %}
 
 ### Suggest an Integration
 
-Have an idea for an integration? [Let us know](http://feedback.moregoodreviews.com) and we can build it for you!
-
+Have an idea for a native integration? [Let us know](http://feedback.moregoodreviews.com) and we can build it for you.
