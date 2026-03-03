@@ -7,7 +7,7 @@ icon: star
 
 # Reviews
 
-The Reviews page shows all feedback and testimonials from your customers. You can search, filter, and sort the list, open a review to see full details, reply to reviews (for Google and other integrations that support it), hide reviews from your showcase, and perform bulk actions. Reviews come from your review pages, imports, and integrations—see [Importing Reviews](../importing-reviews.md) to bring in existing reviews.
+The Reviews page shows all feedback and testimonials from your customers. You can search, filter, and sort the list, open a review to see full details, reply to reviews (for Google and other integrations that support it), hide reviews from your showcase, and perform bulk actions. Reviews come from your review pages, imports, and integrations—see [Importing Reviews](../../importing/reviews.md) to bring in existing reviews.
 
 ### Where to Find It
 
@@ -69,7 +69,7 @@ Click a review row to open it. You'll see:
 If a review came from an integration that supports public replies (such as Google My Business), you'll see a reply field. Write your reply and click Save to post it. The reply appears on the review site. You can use the AI Assistant to generate a suggested reply before editing and saving.
 
 {% hint style="info" %}
-To bring in reviews from Google, Facebook, or other sites, see [Importing Reviews](../importing-reviews.md). To reply to Google reviews, connect the [Google My Business integration](../integrations.md).
+To bring in reviews from Google, Facebook, or other sites, see [Importing Reviews](../../importing/reviews.md). To reply to Google reviews, connect the [Google My Business integration](../integrations.md).
 {% endhint %}
 
 {% hint style="info" %}

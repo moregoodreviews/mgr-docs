@@ -38,7 +38,7 @@ Without an email or phone number, MGR cannot send messages to that customer.
 
 #### Why the Signup Date Matters
 
-Your [Request Strategy](request-strategy.md) decides when to send the first review request. You can set a delay such as "14 days after signup" or "2 hours after charge." The **signup date** is the date used when the trigger is "send after a date." Think of it as the start date for that customer—when they joined, paid, or completed a purchase. If you leave it blank, today's date is used.
+Your [Request Strategy](../platform/request-strategy.md) decides when to send the first review request. You can set a delay such as "14 days after signup" or "2 hours after charge." The **signup date** is the date used when the trigger is "send after a date." Think of it as the start date for that customer—when they joined, paid, or completed a purchase. If you leave it blank, today's date is used.
 
 #### Charge History (Optional)
 
@@ -130,7 +130,7 @@ BCC is great for businesses that already email customers (e.g., receipts or invo
 
 #### REST API
 
-Send customer data from your own server using the REST API. Endpoints are available for importing customers and charges. See the [API Reference](api-reference.md) for details.
+Send customer data from your own server using the REST API. Endpoints are available for importing customers and charges. See the [API Reference](../platform/api-reference.md) for details.
 
 ---
 
@@ -141,7 +141,7 @@ Send customer data from your own server using the REST API. Endpoints are availa
 * **BCC** – Each BCC'd email creates or updates a customer as soon as the email is received.
 * **Manual entry** – The customer appears immediately.
 
-Once customers are in your project, configure your [Request Strategy](request-strategy.md) and turn on automatic review collection to start requesting reviews. You can also send manual review requests from individual customer profiles.
+Once customers are in your project, configure your [Request Strategy](../platform/request-strategy.md) and turn on automatic review collection to start requesting reviews. You can also send manual review requests from individual customer profiles.
 
 ---
 

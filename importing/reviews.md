@@ -7,7 +7,7 @@ icon: file-import
 
 # Importing Reviews
 
-If you have reviews on Google, Facebook, Yelp, or other sites, you can bring them into MGR so they appear in your dashboard and on your [Showcase](showcase.md). This page explains where to find the import options and how each method works.
+If you have reviews on Google, Facebook, Yelp, or other sites, you can bring them into MGR so they appear in your dashboard and on your [Showcase](../platform/showcase.md). This page explains where to find the import options and how each method works.
 
 ### Where to Import
 
@@ -109,14 +109,14 @@ Download an example CSV template from [moregoodreviews.com/csv/reviews.csv](http
 * **CSV Upload** – Same as Quick Import. The import is scheduled and runs in the background.
 * **Manual Entry** – The review appears immediately.
 
-Once reviews are in your project, they appear in your [Showcase](showcase.md), widgets, and analytics. You can reply to them, assign tags, or filter by location.
+Once reviews are in your project, they appear in your [Showcase](../platform/showcase.md), widgets, and analytics. You can reply to them, assign tags, or filter by location.
 
 ---
 
 ### Tips
 
 {% hint style="success" %}
-Use the **Positive only** option when importing from Google, Facebook, Trustpilot, or Yelp if you want to focus on 4- and 5-star reviews for your showcase or marketing.
+Use the **Positive only** option when importing from Google, Facebook, Trustpilot, and Yelp if you want to focus on 4- and 5-star reviews for your showcase or marketing.
 {% endhint %}
 
 {% hint style="info" %}

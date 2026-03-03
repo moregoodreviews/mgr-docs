@@ -27,16 +27,19 @@
   * [Fields](platform/review-pages/fields.md)
   * [Locations](platform/review-pages/locations.md)
   * [QR Code](platform/review-pages/qr-code.md)
-* [Importing Customers](platform/importing-customers.md)
-* [Importing Reviews](platform/importing-reviews.md)
-* [Adding Your Domain](platform/adding-your-domain.md)
 * [Request Strategy](platform/request-strategy.md)
+* [Adding Your Domain](platform/adding-your-domain.md)
 * [Showcase](platform/showcase.md)
 * [Widgets](platform/widgets.md)
 * [API Reference](platform/api-reference.md)
 * [AI Assistant](platform/ai-assistant.md)
 * [Integrations](platform/integrations.md)
 * [Exporting Your Data](platform/exporting-your-data.md)
+
+## Importing
+
+* [Customers](importing/customers.md)
+* [Reviews](importing/reviews.md)
 
 ## SMS
 

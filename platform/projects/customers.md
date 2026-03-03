@@ -7,7 +7,7 @@ icon: users
 
 # Customers
 
-The Customers page shows everyone you've imported into your project. You can search, filter, and sort the list, open a customer's profile to see their details and history, send review requests, and perform bulk actions. Customers are the people you send review requests to—bring them in via [Importing Customers](../importing-customers.md), then manage them here.
+The Customers page shows everyone you've imported into your project. You can search, filter, and sort the list, open a customer's profile to see their details and history, send review requests, and perform bulk actions. Customers are the people you send review requests to—bring them in via [Importing Customers](../../importing/customers.md), then manage them here.
 
 ### Where to Find It
 
@@ -70,7 +70,7 @@ Click a customer row to open their profile. You'll see:
 * **Delete customer** – Permanently remove them from your project.
 
 {% hint style="info" %}
-To add customers to your project, use **Add** on the Customers page or see [Importing Customers](../importing-customers.md) for CSV, integrations, BCC, and other methods.
+To add customers to your project, use **Add** on the Customers page or see [Importing Customers](../../importing/customers.md) for CSV, integrations, BCC, and other methods.
 {% endhint %}
 
 {% hint style="info" %}
