@@ -59,10 +59,10 @@ You can add or remove tags on any review:
 
 **Showcase** – In Settings > Showcase > Filters, you can limit which reviews appear on your showcase by selecting one or more tags.
 
-{% content-ref url="widgets.md" %}
+{% content-ref url="../widgets.md" %}
 Filter widgets by tags
 {% endcontent-ref %}
 
-{% content-ref url="ai-assistant.md" %}
+{% content-ref url="../ai-assistant.md" %}
 AI Assistant
 {% endcontent-ref %}

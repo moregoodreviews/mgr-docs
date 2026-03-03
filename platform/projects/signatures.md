@@ -35,4 +35,3 @@ You can select any of the following layouts for your signature:
 * Faces 3 - Displays faces in a vertical layout, with rating labels shown to the right of each face.
 * Stars 1 - Displays stars in a horizontal layout, with the best and worst label shown beneath them.
 * Stars 2 - Displays stars in a horizontal layout, with rating labels shown to the right of each face.
-
