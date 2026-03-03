@@ -10,6 +10,7 @@
   * [Appearance](platform/projects/appearance.md)
   * [Members](platform/projects/members.md)
   * [Messages](platform/projects/messages.md)
+  * [Ratings](platform/projects/ratings.md)
   * [Sources](platform/projects/sources.md)
   * [Tags](platform/projects/tags.md)
   * [Signatures](platform/projects/signatures.md)
