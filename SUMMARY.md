@@ -8,6 +8,7 @@
 * [Request Strategy](platform/request-strategy.md)
 * [Projects](platform/projects.md)
   * [Members](platform/projects/members.md)
+  * [Messages](platform/projects/messages.md)
   * [Tags](platform/projects/tags.md)
   * [Signatures](platform/projects/signatures.md)
   * [Analytics](platform/projects/analytics.md)
