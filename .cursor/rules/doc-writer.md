@@ -28,20 +28,19 @@ Each feature doc should include:
 - **Tips & common questions** – use GitBook hint blocks for these (see GitBook Rules below)
 
 ## GitBook Rules
+- Read https://docs.gitbook.com to understand all available GitBook components and syntax before writing any doc.
+- All standard Markdown is valid — use it for headings, lists, bold, and tables
 - Use hint blocks instead of bold callouts:
 ```
   {% hint style="info" %}
   Helpful tip or extra context for the user.
   {% endhint %}
-
   {% hint style="warning" %}
   Something the user should be careful about.
   {% endhint %}
-
   {% hint style="success" %}
   Confirmation or positive outcome.
   {% endhint %}
-
   {% hint style="danger" %}
   Something that could cause data loss or an irreversible action.
   {% endhint %}
@@ -57,7 +56,6 @@ Each feature doc should include:
   {% endtab %}
   {% endtabs %}
 ```
-- All standard Markdown is valid — use it for headings, lists, bold, and tables
 
 ## Output Location
 - Save docs to the correct folder in mgr-docs (e.g., /features, /guides)
