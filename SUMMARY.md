@@ -3,10 +3,6 @@
 ## Platform
 
 * [Welcome](README.md)
-* [Importing Customers](platform/importing-customers.md)
-* [Importing Reviews](platform/importing-reviews.md)
-* [Adding Your Domain](platform/adding-your-domain.md)
-* [Request Strategy](platform/request-strategy.md)
 * [Projects](platform/projects.md)
   * [Appearance](platform/projects/appearance.md)
   * [Members](platform/projects/members.md)
@@ -29,6 +25,11 @@
   * [Fields](platform/review-pages/fields.md)
   * [Locations](platform/review-pages/locations.md)
   * [QR Code](platform/review-pages/qr-code.md)
+* [Importing Customers](platform/importing-customers.md)
+* [Importing Reviews](platform/importing-reviews.md)
+* [Adding Your Domain](platform/adding-your-domain.md)
+* [Request Strategy](platform/request-strategy.md)
+* [Integrations](platform/integrations.md)
 * [Showcase](platform/showcase.md)
 * [Widgets](platform/widgets.md)
 * [API Reference](platform/api-reference.md)
