@@ -18,6 +18,7 @@
   * [Links](platform/review-pages/links.md)
   * [Redirects](platform/review-pages/redirects.md)
   * [Fields](platform/review-pages/fields.md)
+* [Showcase](platform/showcase.md)
 * [Widgets](platform/widgets.md)
 * [API Reference](platform/api-reference.md)
 * [AI Assistant](platform/ai-assistant.md)
