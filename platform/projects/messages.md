@@ -94,24 +94,6 @@ Deleting a message is permanent. Use cancel or reschedule if you want to change 
 
 ---
 
-### Who Can See and Manage Messages
-
-{% tabs %}
-{% tab title="Managers and above" %}
-Can view all messages, filter, cancel, reschedule, and delete. Can use bulk actions on the project Messages page.
-{% endtab %}
-
-{% tab title="Operators" %}
-Can view messages and perform the same actions as managers (cancel, reschedule, delete). Cannot change project settings.
-{% endtab %}
-
-{% tab title="Viewers" %}
-Can view messages and the summary stats. Cannot cancel, reschedule, delete, or use bulk actions.
-{% endtab %}
-{% endtabs %}
-
----
-
 ### Tips
 
 {% hint style="info" %}

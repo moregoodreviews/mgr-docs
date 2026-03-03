@@ -10,6 +10,7 @@
   * [Members](platform/projects/members.md)
   * [Messages](platform/projects/messages.md)
   * [Tags](platform/projects/tags.md)
+  * [Sources](platform/projects/sources.md)
   * [Signatures](platform/projects/signatures.md)
   * [Analytics](platform/projects/analytics.md)
   * [Webhooks](platform/projects/webhooks.md)
