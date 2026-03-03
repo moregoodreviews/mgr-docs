@@ -6,8 +6,10 @@
 * [Projects](platform/projects.md)
   * [Appearance](platform/projects/appearance.md)
   * [Members](platform/projects/members.md)
-  * [Messages](platform/projects/messages.md)
+  * [Customers](platform/projects/customers.md)
+  * [Reviews](platform/projects/reviews.md)
   * [Ratings](platform/projects/ratings.md)
+  * [Messages](platform/projects/messages.md)
   * [Locations](platform/projects/locations.md)
   * [Sources](platform/projects/sources.md)
   * [Tags](platform/projects/tags.md)
@@ -36,17 +38,17 @@
 * [Integrations](platform/integrations.md)
 * [Exporting Your Data](platform/exporting-your-data.md)
 
-## Accounts
-
-* [Profile and Settings](accounts/profile-and-settings.md)
-* [Spaces and Projects](accounts/spaces-and-projects.md)
-* [Billing and Upgrading](accounts/billing-and-upgrading.md)
-
 ## SMS
 
 * [SMS with Twilio](sms/sms-with-twilio.md)
 * [SMS with SimpleTexting](sms/sms-with-simpletexting.md)
 * [SMS with ClickSend](sms/sms-with-clicksend.md)
+
+## Accounts
+
+* [Profile and Settings](accounts/profile-and-settings.md)
+* [Spaces and Projects](accounts/spaces-and-projects.md)
+* [Billing and Upgrading](accounts/billing-and-upgrading.md)
 
 ## Agencies
 
