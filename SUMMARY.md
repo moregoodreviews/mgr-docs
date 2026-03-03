@@ -14,6 +14,8 @@
   * [Sources](platform/projects/sources.md)
   * [Tags](platform/projects/tags.md)
   * [Signatures](platform/projects/signatures.md)
+  * [Email Settings](platform/projects/email-settings.md)
+  * [SMS Settings](platform/projects/sms-settings.md)
   * [Analytics](platform/projects/analytics.md)
   * [Webhooks](platform/projects/webhooks.md)
 * [Review Pages](platform/review-pages/README.md)
