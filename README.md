@@ -4,49 +4,37 @@ icon: hand-wave
 
 # Welcome
 
-Welcome to the documentation for More Good Reviews (MGR), an automated review collection engine that gives businesses an easy way to continuously request public reviews and private feedback from their customers.
-
-Why did we build this? In this increasingly competitive world, **reviews, testimonials, and feedback are more important than ever to convince people to pay for your products and services.** You need a constant flow of fresh reviews to move up rankings, higher ratings to stand out from competitors, and feedback to improve your offerings. We built MGR to do all these things for you on autopilot, so you can focus on doing what you do best — building a 5-star business.
+More Good Reviews (MGR) helps you collect more reviews from your customers—on Google, Facebook, Yelp, and other sites—so you can build your reputation and stand out from competitors. We email or text your customers at the right time, send them to a review page, and handle reminders. You focus on your business; we handle the rest.
 
 <a href="https://moregoodreviews.com/signup" class="button primary">Sign Up</a><a href="https://moregoodreviews.com/login" class="button secondary">Log In</a>
 
-New to MGR? See [Getting Started](getting-started.md) for a step-by-step guide to setting up your project and turning on automatic review collection.
+New to MGR? See [Getting Started](getting-started.md) for a step-by-step guide from signup to your first review.
+
+---
+
+### Why Reviews Matter
+
+Reviews, testimonials, and feedback are more important than ever. Customers read them before they buy. Search engines use them for rankings. We built MGR so you can get a steady flow of fresh reviews on autopilot—without the manual follow-ups.
+
+---
 
 ### How It Works
 
-MGR works by emailing or texting customers on your behalf, asking them to rate your service. Upon selecting a rating, they are taken to a review page and presented with options to leave a review on review sites, like Google, Facebook, Yelp, TripAdvisor, G2, Capterra, and Trustpilot. You may also display a feedback form if the rating is not so great, or redirect them directly to a review site if it is.
+1. **Import your customers** – Connect Stripe or HubSpot, upload a CSV, or add them manually. We need names and email or phone to send requests.
 
-#### Importing Customers
+2. **Set your strategy** – Choose when to ask for reviews: after a charge, on a signup anniversary, or based on subscription status. You control who gets emailed and when.
 
-We recommend continuously importing your customers by securely connecting your Stripe or HubSpot account. You may also import customers with an app connector or our REST API. In addition, we offer a way to import customers via manual input, CSV upload, and email BCC.
+3. **Customize your review page** – Customers land here when they click your link. They pick a rating, then see options to leave a review on Google (the most important), Yelp, Facebook, and more—or leave feedback directly on your page.
 
-#### Request Strategy
+4. **Turn on Automate** – Click the Automate button and we start sending review requests based on your strategy. Up to 3 reminders if they don't respond. Each customer is asked at most once.
 
-You are in full control over who gets emailed and when. Our strategy lets you send to customers based on their signup or purchase date, charge history, subscription info, and more.
+5. **Watch the reviews come in** – Sync [Google My Business](platform/integrations.md) to import and reply to Google reviews from MGR. Get alerts in Slack or Discord when new reviews arrive.
 
-#### Request Template
+---
 
-Our email and SMS templates are fully customizable. You may edit the branding, subject, message, and rating icons and labels for each template.
+### What You Get
 
-#### Domain Name
-
-You may connect your own domain name and use your own custom sender address. We offer faster setup by sending from our own domain name if you choose not to connect yours.
-
-#### Reminders
-
-We'll send up to 3 reminders to your customers if they haven't clicked to leave a review. You are in full control over how many reminders are sent out and when.
-
-#### Review Pages
-
-Your business gets its own customizable review pages where customers can select a rating, leave feedback, and be taken to 3rd party review sites. You can add as many links as you would like to your pages, along with an optional incentive for customers to leave a review. You can set up multiple review pages to test strategies, or assign them to different locations.
-
-#### Alerts
-
-We'll send you a notification each time a customer selects a rating and leaves a review. You can receive alerts over email, Slack, and Discord.
-
-#### Dashboard
-
-Our dashboard gives you a complete picture of your customer reviews and request history.
-
-
-
+* **Customizable templates** – Email and SMS with your branding, subject lines, and message. Add your logo and sender info.
+* **Your own domain** – Send from your domain or use ours for faster setup.
+* **Review pages** – Multiple pages for different locations or campaigns. Add links, redirects, and form fields.
+* **Dashboard** – See reviews, messages, and request history at a glance.
