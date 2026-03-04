@@ -67,15 +67,3 @@ Because customers complete the review on their own phone, they can take their ti
 {% hint style="warning" %}
 Keep the tablet or screen in a spot where the QR code is clearly visible and easy to scan. Ensure good lighting and avoid glare so phone cameras can read the code reliably.
 {% endhint %}
-
----
-
-### Summary
-
-| Use case | What to do |
-|----------|------------|
-| Single location | Use your main kiosk link from Preview or the review page editor |
-| Multiple locations | Use the **Kiosk Page** button next to each location in the Locations section |
-| Preview before going live | Click **Preview Kiosk Page** to see how the QR code looks on a tablet or display |
-
-The kiosk page helps you collect ratings, feedback, and reviews in person—boosting your reputation and giving you more data to improve your business.
