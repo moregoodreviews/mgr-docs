@@ -59,10 +59,29 @@ Inviting members may require a plan upgrade. If the invite button is disabled or
 Click a member’s tile to open their settings. You can:
 
 * **Change their role** – Switch between Manager, Operator, and Viewer. Owners and Admins cannot have their role changed.
-* **Adjust notifications** – Choose which events they receive email notifications for (for example, new reviews, failed messages, or alerts).
+* **Adjust notifications** – Choose which events they receive email notifications for (see Notifications below).
 * **Remove from project** – Remove their access to this project. They’ll still have access to other projects they were invited to.
 
 Members can also edit their own notification preferences. They’ll see an **Edit** button on their own tile.
+
+### Notifications
+
+When you click a member’s tile, a **Notifications** section appears in the edit modal. You can turn specific notification types on or off for that person:
+
+* **New Reviews** – Sent when customers leave new reviews or ratings. Useful for staying on top of feedback and reputation.
+* **Imports** – Sent when customer or review imports finish. Helps you know when bulk data has been added.
+* **Sent Replies** – Sent when reviews are automatically replied to. Keeps you informed when automated responses go out.
+* **Weekly Reports** – A summary of activity sent once per week. Good for a high-level view of reviews, ratings, and engagement without daily emails.
+
+Check the boxes for the notifications you want that member to receive, then click **Save**.
+
+{% hint style="info" %}
+Notification preferences are set per project. If a member has access to multiple projects, they can receive different notifications for each one.
+{% endhint %}
+
+{% hint style="success" %}
+Turn off notifications you don’t need to reduce inbox clutter. For example, if you check the dashboard daily, you might disable Weekly Reports but keep New Reviews so you never miss fresh feedback.
+{% endhint %}
 
 ### Resending an Invite
 

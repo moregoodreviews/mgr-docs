@@ -22,6 +22,7 @@
 * [Review Pages](platform/review-pages/README.md)
   * [Settings](platform/review-pages/settings.md)
   * [Appearance](platform/review-pages/appearance.md)
+  * [Code Editor](platform/review-pages/code-editor.md)
   * [Success Page](platform/review-pages/success.md)
   * [Links](platform/review-pages/links.md)
   * [Redirects](platform/review-pages/redirects.md)

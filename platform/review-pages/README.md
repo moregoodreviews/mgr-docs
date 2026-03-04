@@ -32,6 +32,7 @@ You can filter the list by location or by whether the page has links or redirect
 |---------|---------|
 | [Settings](settings.md) | Title, introduction, footer, button label, instructions per rating, rating options, and email notifications |
 | [Appearance](appearance.md) | Layout, alignment, fonts, background color, and background image |
+| [Code Editor](code-editor.md) | Custom styles and scripts for advanced customization |
 | [Success Page](success.md) | What customers see after submitting a review |
 | [Links](links.md) | Buttons that link to third-party review sites (Google, Yelp, etc.) |
 | [Redirects](redirects.md) | Automatic redirects to review sites after a rating is selected |
