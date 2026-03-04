@@ -28,6 +28,7 @@
   * [Fields](platform/review-pages/fields.md)
   * [Locations](platform/review-pages/locations.md)
   * [QR Code](platform/review-pages/qr-code.md)
+  * [Kiosk](platform/review-pages/kiosk.md)
 * [Request Strategy](platform/request-strategy.md)
 * [Adding Your Domain](platform/adding-your-domain.md)
 * [Showcase](platform/showcase.md)

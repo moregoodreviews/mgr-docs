@@ -38,6 +38,7 @@ You can filter the list by location or by whether the page has links or redirect
 | [Fields](fields.md) | Form inputs for name, email, review text, and custom fields |
 | [Locations](locations.md) | Assign locations to this page and enable the location picker |
 | [QR Code](qr-code.md) | Download a QR code that links to your review page |
+| [Kiosk](kiosk.md) | Display a QR code on a tablet or screen for customers to scan and leave reviews on their phone |
 
 ---
 
