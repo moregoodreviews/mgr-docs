@@ -3,6 +3,7 @@
 ## Platform
 
 * [Welcome](README.md)
+* [Getting Started](getting-started.md)
 * [Projects](platform/projects.md)
   * [Appearance](platform/projects/appearance.md)
   * [Members](platform/projects/members.md)

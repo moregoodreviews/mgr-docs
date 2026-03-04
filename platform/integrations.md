@@ -5,7 +5,7 @@ icon: plug
 
 # Integrations
 
-Integrations connect More Good Reviews with the tools you already use. You can sync reviews from Google and Facebook, send review requests to customers in Stripe or HubSpot, get instant alerts in Slack or Discord when new reviews arrive, and request reviews over SMS. Application connectors like Zapier and Pabbly let you build custom workflows with your reviews and customer data.
+Integrations connect More Good Reviews with the tools you already use. **Google My Business is the most important**—it lets you sync and reply to Google reviews from MGR. You can also sync reviews from Facebook, send review requests to customers in Stripe or HubSpot, get instant alerts in Slack or Discord when new reviews arrive, and request reviews over SMS. Application connectors like Zapier and Pabbly let you build custom workflows with your reviews and customer data.
 
 ### Where to Find Integrations
 
@@ -19,7 +19,7 @@ These integrations bring reviews into your project from external sites. Once con
 
 ### Google My Business
 
-Sync your Google business reviews into MGR. When you connect Google My Business, you choose which business locations to sync. Reviews from those locations are imported and kept up to date. You can also reply to Google reviews directly from MGR.
+Google My Business is the most important integration for most businesses. Sync your Google business reviews into MGR. When you connect Google My Business, you choose which business locations to sync. Reviews from those locations are imported and kept up to date. You can also reply to Google reviews directly from MGR.
 
 {% hint style="info" %}
 Google My Business supports multiple locations. After connecting, select the locations you want to sync. Reviews from unselected locations will not be imported.

@@ -10,6 +10,8 @@ Why did we build this? In this increasingly competitive world, **reviews, testim
 
 <a href="https://moregoodreviews.com/signup" class="button primary">Sign Up</a><a href="https://moregoodreviews.com/login" class="button secondary">Log In</a>
 
+New to MGR? See [Getting Started](getting-started.md) for a step-by-step guide to setting up your project and turning on automatic review collection.
+
 ### How It Works
 
 MGR works by emailing or texting customers on your behalf, asking them to rate your service. Upon selecting a rating, they are taken to a review page and presented with options to leave a review on review sites, like Google, Facebook, Yelp, TripAdvisor, G2, Capterra, and Trustpilot. You may also display a feedback form if the rating is not so great, or redirect them directly to a review site if it is.
