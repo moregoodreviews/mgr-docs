@@ -2,14 +2,14 @@
 description: >-
   Configure the template, instructions, rating options, and email notifications
   for your review page.
-icon: settings
+icon: gear
 ---
 
 # Settings
 
 The **Settings** section controls the main content and behavior of your review page. It includes four parts: **Template**, **Instructions**, **Options**, and **Notifications**.
 
----
+***
 
 ### Template
 
@@ -21,7 +21,7 @@ The template defines the core text and structure customers see:
 * **Footer** – Optional text at the bottom, such as a disclaimer or legal information.
 * **Button Label** – The text on the submit button (e.g., "Submit" or "Send Feedback").
 
----
+***
 
 ### Instructions
 
@@ -32,7 +32,7 @@ Instructions appear directly above the form after a customer selects a rating. Y
 
 Use the tabs to switch between ratings and edit the instructions for each. This lets you tailor the message based on whether the customer had a positive or negative experience.
 
----
+***
 
 ### Options
 
@@ -42,22 +42,20 @@ These options control how ratings and reviews work:
   * **Save rating before customer review** – Only when the customer arrives via email, SMS, or a direct customer link. Anonymous visitors don't have their rating saved until they submit the form.
   * **Save rating before every review** – Save the rating for anyone who visits the page, including anonymous visitors.
   * **Never save rating before review** – Only save the rating when the customer submits the form or leaves a written review.
-
 * **Native reviews** – Whether to accept written reviews (testimonials) on your page. If disabled, customers who give a positive rating will only see links to third-party sites (you must add at least one [Link](links.md) or [Redirect](redirects.md)). Negative ratings still show the feedback form.
-
 * **Editable ratings** – Whether customers can change their rating immediately after selecting it. If disabled, they must refresh the page to pick a different rating.
 
 {% hint style="info" %}
 If you disable native reviews for positive ratings, make sure you have links or redirects configured. Otherwise, customers who select a positive rating will have nothing to click.
 {% endhint %}
 
----
+***
 
 ### Notifications
 
 Enter one or more email addresses (separated by commas) to receive a notification whenever someone submits a review on this page. Useful for staying on top of new feedback, especially negative reviews that need a quick response.
 
----
+***
 
 ### Tips
 
