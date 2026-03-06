@@ -1,23 +1,47 @@
 ---
 description: >-
-  Bring existing reviews into MGR from Google, Facebook, Trustpilot, Yelp,
-  LinkedIn, CSV upload, or manual entry.
+  Bring existing reviews into MGR from Google My Business, Facebook, Trustpilot,
+  Yelp, LinkedIn, CSV upload, or manual entry.
 icon: file-import
 ---
 
 # Importing Reviews
 
-If you have reviews on Google, Facebook, Yelp, or other sites, you can bring them into MGR so they appear in your dashboard and on your [Showcase](../platform/showcase.md). This page explains where to find the import options and how each method works.
+If you have reviews, ratings, or feedback on Google, Facebook, Yelp, or other sites, you can bring them into MGR so they appear in your dashboard and on your [Showcase](../platform/showcase.md). This page explains where to find the import options and how each method works. **The best way to import Google reviews is the Google My Business integration**—it syncs automatically and keeps your ratings and feedback up to date, helping you manage your reputation in one place.
 
 ### Where to Import
 
-Go to **Reviews** in the sidebar and click **Add**. A modal opens with three tabs: **Quick Import**, **Manual Entry**, and **Upload CSV**.
+Go to **Reviews** in the sidebar and click **Add**. A modal opens with three tabs: **Quick Import**, **Manual Entry**, and **Upload CSV**. For Google reviews, you can also connect **Google My Business** under **Settings > Integrations**.
+
+---
+
+### Google My Business (Recommended for Google Reviews)
+
+The Google My Business integration is the best way to import and manage your Google reviews. It syncs your reviews automatically and keeps them up to date—no manual imports or URL pasting. Your ratings and feedback from Google appear in MGR, and you can reply to reviews directly from your dashboard.
+
+**How it works:**
+
+1. Go to **Settings** in the sidebar and click **Integrations**.
+2. Find **Google My Business** under Review Integrations and click **Connect**.
+3. Sign in with your Google account and authorize the connection.
+4. Choose which business locations to sync. Reviews from those locations are imported and kept up to date.
+5. Click **Sync** or **Resync** anytime to pull in the latest reviews.
+
+Once connected, new Google reviews appear in MGR automatically. You can reply to them, assign tags, filter by location, and display them on your [Showcase](../platform/showcase.md). Reviews stay in sync, so you always have the latest ratings and feedback in one place.
+
+{% hint style="success" %}
+Google My Business is the recommended method for importing Google reviews. It syncs automatically, supports multiple locations, and lets you reply to reviews from MGR—so you can manage your reputation without switching between tools.
+{% endhint %}
+
+{% hint style="info" %}
+If you have multiple locations, select which ones to sync when connecting. Reviews will be tagged by location so you can filter and report by store or branch.
+{% endhint %}
 
 ---
 
 ### Quick Import (from a Website URL)
 
-Import reviews directly from a public review page. Paste the URL and MGR will fetch the reviews for you.
+Import reviews directly from a public review page. Paste the URL and MGR will fetch the reviews for you. Use this when you don't have the Google My Business integration or when importing from Facebook, Trustpilot, Yelp, or LinkedIn.
 
 **Supported sites:** Google, Facebook, Trustpilot, Yelp, LinkedIn
 
@@ -34,7 +58,7 @@ Import reviews directly from a public review page. Paste the URL and MGR will fe
 The import runs in the background. You'll see a confirmation when it's scheduled. Reviews appear in your list shortly after. You may receive an email when the import completes.
 
 {% hint style="info" %}
-For Google reviews, you can also connect **Google My Business** under **Settings > Integrations** to sync reviews automatically on an ongoing basis.
+For Google reviews, prefer the [Google My Business integration](#google-my-business-recommended-for-google-reviews) for automatic, ongoing sync. Quick Import from a URL is a one-time fetch.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -105,6 +129,7 @@ Download an example CSV template from [moregoodreviews.com/csv/reviews.csv](http
 
 ### After Import
 
+* **Google My Business** – Reviews sync automatically. New reviews appear in MGR as they come in. Use **Sync** or **Resync** on the integration page to pull the latest data.
 * **Quick Import** – The import runs in the background. You may receive an email when it completes. Reviews appear on the Reviews page as they are processed.
 * **CSV Upload** – Same as Quick Import. The import is scheduled and runs in the background.
 * **Manual Entry** – The review appears immediately.
@@ -114,6 +139,10 @@ Once reviews are in your project, they appear in your [Showcase](../platform/sho
 ---
 
 ### Tips
+
+{% hint style="success" %}
+Connect **Google My Business** first if you have Google reviews. It's the easiest way to import and manage your reputation—reviews sync automatically and you can reply from MGR.
+{% endhint %}
 
 {% hint style="success" %}
 Use the **Positive only** option when importing from Google, Facebook, Trustpilot, and Yelp if you want to focus on 4- and 5-star reviews for your showcase or marketing.
