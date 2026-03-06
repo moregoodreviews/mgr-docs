@@ -1,9 +1,9 @@
 ---
 description: >-
-  Customize how customers rate your business—stars or faces, labels, colors,
-  and custom icons. Control how ratings appear on review pages and across your
+  Customize how customers rate your business—stars or faces, labels, colors, and
+  custom icons. Control how ratings appear on review pages and across your
   project.
-icon: star
+icon: face-smile-beam
 ---
 
 # Ratings
@@ -14,7 +14,7 @@ Ratings are the scores customers give when they leave reviews—typically 1 thro
 
 Go to **Settings** in the sidebar, then click **Ratings**. You'll see two sections: one for the rating scale itself, and one for custom icons.
 
----
+***
 
 ### Rating Labels
 
@@ -29,7 +29,7 @@ Each row also shows a preview of the icon and score so you can see how it will l
 Labels and colors appear on your review pages, in widgets, and on your Showcase. Consistent branding helps customers recognize your business and improves your reputation.
 {% endhint %}
 
----
+***
 
 ### Symbol: Stars or Faces
 
@@ -40,7 +40,7 @@ Choose how ratings are displayed:
 
 This setting applies everywhere ratings appear—on review pages, in your review list, on widgets, and on your Showcase.
 
----
+***
 
 ### Rating Order (Faces Only)
 
@@ -51,7 +51,7 @@ When you use faces, you can choose the order they appear:
 
 This only affects the face display. Star ratings always show from lowest to highest.
 
----
+***
 
 ### Custom Icons
 
@@ -69,7 +69,7 @@ Upload an image for each rating you want to customize. The platform shows a prev
 Custom icons help your review forms stand out and feel more on-brand. They appear on review pages where customers leave feedback.
 {% endhint %}
 
----
+***
 
 ### Where Ratings Are Used
 
@@ -82,7 +82,7 @@ Your rating settings flow through your entire project:
 * **Custom fields** – When you add custom fields to a review page, you can choose to show them only when certain ratings are selected. For example, show a feedback form for low ratings and a review form for high ratings.
 * **Link revealer** – On review pages, you can set links to appear only when a customer selects a certain rating or higher.
 
----
+***
 
 ### Tips
 
