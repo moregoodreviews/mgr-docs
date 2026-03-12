@@ -9,7 +9,6 @@
   * [Members](platform/projects/members.md)
   * [Customers](platform/projects/customers.md)
   * [Reviews](platform/projects/reviews.md)
-  * [Sharing](platform/projects/sharing.md)
   * [Ratings](platform/projects/ratings.md)
   * [Messages](platform/projects/messages.md)
   * [Locations](platform/projects/locations.md)
@@ -38,6 +37,7 @@
 * [API Reference](platform/api-reference.md)
 * [AI Assistant](platform/ai-assistant.md)
 * [Integrations](platform/integrations.md)
+* [Sharing](platform/projects/sharing.md)
 * [Exporting](platform/exporting.md)
 
 ## Importing
