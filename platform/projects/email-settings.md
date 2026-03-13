@@ -12,7 +12,7 @@ Email settings control how your project sends review requests and reminders to c
 
 ### Where to Find Email Settings
 
-Go to **Settings** in the sidebar, then click **Email**. You'll see three sections: **Templates**, **Appearance**, and **Settings**. Each section has its own **Save** button, so remember to click it after making changes.
+Go to **Settings** in the sidebar, then click **Email**. You'll see four sections: **Templates**, **Call to Action**, **Appearance**, and **Settings**. Each section has its own **Save** button, so remember to click it after making changes.
 
 ---
 
@@ -30,10 +30,7 @@ Templates are the actual messages your customers receive. Each template has a pu
 1. Use the dropdown at the top to select which template you want to edit.
 2. Edit the **Subject** line (for email templates).
 3. Edit the **Body** of the message. You can use placeholders that get replaced with real data—for example, the customer's first name, your business name, or the link to leave a review.
-4. For Request and Reminder templates, choose how the call-to-action appears:
-   * **Rating selector** – Customers see a row of stars to tap or click.
-   * **Button** – Customers see a single button. You can customize the button label.
-5. Click **Save** to apply your changes.
+4. Click **Save** to apply your changes.
 
 {% hint style="info" %}
 Placeholders like `{{first_name}}` and `{{project_name}}` are replaced automatically when the email is sent. Use them to personalize your messages and improve response rates.
@@ -47,6 +44,44 @@ To send a test email, expand **Send test** in the preview window, enter one or m
 
 {% hint style="success" %}
 Send yourself a test before turning on automatic review collection. That way you can confirm the message looks right and the link works.
+{% endhint %}
+
+---
+
+### Call to Action
+
+The **Call to Action** section controls how customers respond when they receive a review request or reminder email. You choose whether they see a row of ratings to tap or a single button, and where that link takes them. These settings apply to all request and reminder templates at once—so you can keep your emails consistent without editing each template separately.
+
+#### Call to Action Type
+
+Choose how the main link appears in your review request and reminder emails:
+
+* **Rating selector** – Customers see a row of stars (or other rating symbols) to tap or click. Each option links directly to your review page with that rating pre-selected. This works well when you want customers to choose a rating before they land on the form.
+* **Button** – Customers see a single button with custom text. Use this when you prefer a cleaner look or want to emphasize one clear action.
+
+{% hint style="info" %}
+The rating selector shows your configured ratings (stars, faces, or custom symbols) from your [Review Pages](../review-pages/README.md) settings. The button gives you more control over the label and where it links.
+{% endhint %}
+
+#### Button Label (Button Only)
+
+When you choose **Button**, you can customize the text that appears on it. For example: "Leave a Review", "Share Your Feedback", or "Rate Your Experience". Keep it short and action-oriented so customers know what to expect when they click.
+
+#### Link for Button (Button Only)
+
+When you use a button, you choose where it sends customers:
+
+* **Review page** – The button links to your project's review page, where customers can select a rating and leave a review or feedback. This is the default and works for most businesses collecting reviews and ratings.
+* **Custom URL** – The button links to a web address you specify. Use this when you want to send customers to a specific landing page, survey, or third-party review site instead of your built-in review form.
+
+If you choose **Custom URL**, a field appears where you enter the full web address (for example, `https://your-website.com/feedback`). Make sure the link starts with `https://` and points to a page you control or trust.
+
+{% hint style="info" %}
+When using a custom URL, the link is the same for every customer—you cannot personalize it per customer. Clicks are still tracked so you can see who opened and clicked in your [Messages](messages.md) view.
+{% endhint %}
+
+{% hint style="success" %}
+A clear call to action improves click-through rates. Test both the rating selector and button to see which performs better for your audience and reputation goals.
 {% endhint %}
 
 ---
@@ -85,9 +120,10 @@ Emails that look professional and on-brand are more likely to be opened and acte
 
 ### How It All Works Together
 
-1. **Templates** define what you say—the subject, body, and call-to-action for each type of message.
-2. **Settings** define who the email comes from and what appears in the footer.
-3. **Appearance** defines how the email looks—alignment and fonts.
+1. **Templates** define what you say—the subject and body for each type of message.
+2. **Call to Action** defines how customers respond—rating selector or button, and where the link goes.
+3. **Settings** define who the email comes from and what appears in the footer.
+4. **Appearance** defines how the email looks—alignment and fonts.
 
 When you update any of these, the changes apply to new emails only. Messages already sent or scheduled keep their original content and look.
 
