@@ -12,7 +12,7 @@ Email settings control how your project sends review requests and reminders to c
 
 ### Where to Find Email Settings
 
-Go to **Settings** in the sidebar, then click **Email**. You'll see four sections: **Templates**, **Call to Action**, **Appearance**, and **Settings**. Each section has its own **Save** button, so remember to click it after making changes.
+Go to **Settings** in the sidebar, then click **Email**. You'll see four sections: **Templates**, **Review Link**, **Appearance**, and **Settings**. Each section has its own **Save** button, so remember to click it after making changes.
 
 ---
 
@@ -48,11 +48,11 @@ Send yourself a test before turning on automatic review collection. That way you
 
 ---
 
-### Call to Action
+### Review Link
 
-The **Call to Action** section controls how customers respond when they receive a review request or reminder email. You choose whether they see a row of ratings to tap or a single button, and where that link takes them. These settings apply to all request and reminder templates at once—so you can keep your emails consistent without editing each template separately.
+The **Review Link** section controls how customers respond when they receive a review request or reminder email. You choose whether they see a row of ratings to tap or a single button, and where that link takes them. These settings apply to all request and reminder templates at once—so you can keep your emails consistent without editing each template separately.
 
-#### Call to Action Type
+#### Link style
 
 Choose how the main link appears in your review request and reminder emails:
 
@@ -81,7 +81,7 @@ When using a custom URL, the link is the same for every customer—you cannot pe
 {% endhint %}
 
 {% hint style="success" %}
-A clear call to action improves click-through rates. Test both the rating selector and button to see which performs better for your audience and reputation goals.
+A clear review link improves click-through rates. Test both the rating selector and button to see which performs better for your audience and reputation goals.
 {% endhint %}
 
 ---
@@ -121,7 +121,7 @@ Emails that look professional and on-brand are more likely to be opened and acte
 ### How It All Works Together
 
 1. **Templates** define what you say—the subject and body for each type of message.
-2. **Call to Action** defines how customers respond—rating selector or button, and where the link goes.
+2. **Review Link** defines how customers respond—rating selector or button, and where the link goes.
 3. **Settings** define who the email comes from and what appears in the footer.
 4. **Appearance** defines how the email looks—alignment and fonts.
 
