@@ -27,7 +27,7 @@
   * [Redirects](platform/review-pages/redirects.md)
   * [Fields](platform/review-pages/fields.md)
   * [Locations](platform/review-pages/locations.md)
-  * [QR Code](platform/review-pages/qr-code.md)
+  * [QR Codes](platform/review-pages/qr-code.md)
   * [Kiosk](platform/review-pages/kiosk.md)
   * [Code Editor](platform/review-pages/code-editor.md)
 * [Request Strategy](platform/request-strategy.md)
