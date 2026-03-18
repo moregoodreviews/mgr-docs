@@ -31,6 +31,7 @@
   * [AI Assistant](platform/review-pages/ai-assistant.md)
   * [Code Editor](platform/review-pages/code-editor.md)
   * [Kiosk](platform/review-pages/kiosk.md)
+    * [URL Parameters](platform/review-pages/url-parameters.md)
 * [Request Strategy](platform/request-strategy.md)
 * [Adding Your Domain](platform/adding-your-domain.md)
 * [Showcase](platform/showcase.md)

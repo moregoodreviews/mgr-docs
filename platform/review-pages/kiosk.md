@@ -46,7 +46,7 @@ Reviews and ratings from the kiosk are stored in your project and appear in your
 If you have multiple locations, use a separate kiosk link for each one. This ensures reviews are attributed to the correct location.
 
 * In the **Locations** section of your review page, click **Kiosk Page** next to each location to get that location's kiosk link.
-* You can also add `?location=your-location-slug` to your main kiosk link to target a specific location.
+* You can also add `?location=your-location-slug` to your main kiosk link to target a specific location. For a full list of parameters (location, rating, name, email, and more), see [URL Parameters](url-parameters.md).
 
 {% hint style="info" %}
 Use location-specific kiosk links when you have displays at different stores or branches. Each link keeps reviews tied to the right place for reporting and reputation management.
