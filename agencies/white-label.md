@@ -29,6 +29,7 @@ It is important to configure all of the settings to get your agency up and runni
 * Branding - Your logo, icon, and primary color.
 * Meta - The title, description, and image to use for your meta data. This is what appears on your customer portal and console when visiting your custom domain name.
 * Domain - There are several options for configuring your domain name. The most important are the domain for sending emails and the domain for your client portal. You can learn more about the domain setup process, [here](domain-setup.md).
+* API - Your agency’s secret API key for integrations that use agency-level endpoints. You can copy or rotate the key on the [API](api.md) page, similar to a project API key.
 
 ### Adding Projects
 

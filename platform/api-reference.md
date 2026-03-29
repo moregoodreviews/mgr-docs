@@ -9,7 +9,9 @@ icon: rectangle-terminal
 
 ### Authentication
 
-Your project has a secret API key that you can use to authenticate your requests. You can find your project’s API key, [here](https://moregoodreviews.com/settings/api).
+Your **project** has a secret API key that you can use to authenticate your requests. You can find your project’s API key [here](https://moregoodreviews.com/settings/api).
+
+If you run an **agency** on the agency plan, your agency also has its own secret API key. You manage it under **Agency > Settings > API**. Use the agency key only for API routes that are documented for agency authentication; for project-scoped data (customers, reviews, locations, and the endpoints in this reference under `/beacon/...`), continue to use the corresponding **project** API key.
 
 Add your API key to the Authorization header of each request. For example:
 

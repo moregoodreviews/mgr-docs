@@ -62,6 +62,7 @@
 ## Agencies
 
 * [White Label](agencies/white-label.md)
+* [API](agencies/api.md)
 * [Domain Setup](agencies/domain-setup.md)
 * [Inviting Clients](agencies/inviting-clients.md)
 * [Inviting Team Members](agencies/inviting-team-members.md)
