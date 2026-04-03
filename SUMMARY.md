@@ -68,3 +68,15 @@
 * [Restricting Access](agencies/restricting-access.md)
 * [Email Templates](agencies/email-templates.md)
 * [Customization Options](agencies/customization-options.md)
+* [API Reference (Beta)](agencies/api-reference-beta/README.md)
+  * ```yaml
+    type: builtin:openapi
+    props:
+      models: false
+      downloadLink: false
+    dependencies:
+      spec:
+        ref:
+          kind: openapi
+          spec: mgr-agency-api
+    ```
