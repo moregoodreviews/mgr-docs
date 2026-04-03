@@ -1,15 +1,19 @@
 ---
 description: >-
-  Agency secret key: where to find it, how to copy or rotate it, list clients
-  and projects, invite with reviews and messaging access, and use the
-  interactive reference for your white-label reviews, ratings, feedback, and
-  reputation workspace.
+  Introduction to the Agency API for white-label agencies: what the connection
+  is for, agency secret key (find, copy, rotate), clients and projects,
+  reviews, ratings, feedback, and reputation at scale—plus the interactive
+  reference on this page.
 icon: rectangle-terminal
 ---
 
 # API Reference (Beta)
 
-If you run a white-label [reviews and reputation](../white-label.md) business for clients, your agency has its own **secret key**. That key lets trusted automation work across your entire agency—every customer business you host—not just one location. It works like the secret key inside a single project’s settings, described in our [project automation reference](../../platform/api-reference.md), except yours applies to the whole agency.
+If you run a white-label [reviews and reputation](../white-label.md) business for clients, you can connect your own tools and workflows to your agency account. We call that connection the **Agency API**. It is for teams who already use the console day to day but also want to **provision clients**, **align access**, and **keep sidebar shortcuts in sync** without doing every step by hand.
+
+Think of it as a secure bridge between your systems and your agency space in the product. Each **project** under your agency still represents one customer business you manage—not only for **review requests**, **ratings**, **feedback**, and **reputation** work, but for everything else those clients do in the console. The connection does not replace the console; it helps you scale how you set things up and who can see what.
+
+Your agency has its own **secret key**. That key lets trusted automation work across your entire agency—every customer business you host—not just one location. It works like the secret key inside a single project’s settings, described in our [project automation reference](../../platform/api-reference.md), except yours applies to the whole agency.
 
 Use the interactive reference linked in the sidebar under this page for the full list of what you can do and the details behind each action. The sections below explain what the key is for, where to find it in the console, and how to keep it safe—so your team knows what clients will experience when you manage **review requests**, **ratings**, **feedback**, and **reputation** at scale.
 
