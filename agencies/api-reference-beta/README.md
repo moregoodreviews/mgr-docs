@@ -1,5 +1,5 @@
 ---
-description: White-label Agency API (beta): secret-key automation, live reference, and workflows for reviews, ratings, feedback, and reputation.
+description: White-label Agency API (beta) - secret-key automation, live reference, and workflows for reviews, ratings, feedback, and reputation.
 icon: rectangle-terminal
 ---
 
