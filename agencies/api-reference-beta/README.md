@@ -1,9 +1,5 @@
 ---
-description: >-
-  Introduction to the Agency API for white-label agencies: what the connection
-  is for, how it differs from project automation, finding and rotating your
-  agency secret key, and using the live reference for reviews, ratings,
-  feedback, and reputation work at scale.
+description: White-label Agency API (beta): secret-key automation, live reference, and workflows for reviews, ratings, feedback, and reputation.
 icon: rectangle-terminal
 ---
 
