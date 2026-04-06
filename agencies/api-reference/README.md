@@ -1,9 +1,9 @@
 ---
-description: White-label Agency API (beta) - secret-key automation, live reference, and workflows for reviews, ratings, feedback, and reputation.
+description: White-label Agency API - secret-key automation, live reference, and workflows for reviews, ratings, feedback, and reputation.
 icon: rectangle-terminal
 ---
 
-# API Reference (Beta)
+# API Reference
 
 If you run a white-label [reviews and reputation](../white-label.md) business for clients, you can connect your own tools and workflows to your agency account. We call that connection the **Agency API**. It is for teams who already use the console every day and want to **automate agency-wide setup**—so adding businesses, aligning access, and keeping the client experience consistent does not all have to be done by hand.
 
@@ -16,7 +16,7 @@ Your agency has its own **secret key**. That key lets trusted automation act on 
 Below this introduction, the same page includes an **interactive reference** that lists what the Agency API can do today: the operations you can perform, how to authenticate, and the shape of each request and response.
 
 {% hint style="info" %}
-That reference is generated from our specification and is updated as we expand or adjust the Agency API. Rely on it for the current, authoritative picture—especially while this area is labeled **Beta**, when details may change from time to time.
+That reference is generated from our specification and is updated as we expand or adjust the Agency API. Rely on it for the current, authoritative picture as details may change from time to time.
 {% endhint %}
 
 ## What this connection is generally for
