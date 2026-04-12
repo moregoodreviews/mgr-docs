@@ -1,7 +1,7 @@
 ---
 description: >-
   AI-powered tools for generating review suggestions and crafting responses to
-  reviews.
+  reviews, including how to preview samples and automate replies.
 icon: sparkles
 ---
 
@@ -27,7 +27,7 @@ You can adjust several settings for your AI-generated reviews:
 * **Keywords in Reviews** – Add up to 10 keywords you'd like included when relevant (e.g., your business name, location, or services) to help with SEO.
 * **Custom Instructions** – Add your own guidance for the AI (up to 2,000 characters). For example, you might ask it to mention specific services or avoid certain phrases.
 
-Use the **Preview** button to generate a sample review with your current settings before saving.
+To try a sample review suggestion, use **Preview** as described in [Previewing suggestions and replies](#previewing-suggestions-and-replies).
 
 Each review page has its own toggle to enable or disable AI Review Suggestions. Go to Forms, open a review page, and find the AI Assistant section to turn it on or off for that page. When you first save your AI Review Suggestions settings, the feature is enabled on all your review pages by default.
 
@@ -46,7 +46,7 @@ Replies are kept short—no more than 50 words (or 20 words when there's no revi
 * **Keywords in Replies** – Add up to 10 keywords to include when relevant for SEO.
 * **Custom Instructions** – Add your own guidance (up to 2,000 characters) so the AI follows your style or priorities.
 
-Use the **Preview** button to generate a sample reply. You can enter a rating, optional review text, and tone to see what the AI would produce before saving.
+To try a sample reply, use **Preview** as described in [Previewing suggestions and replies](#previewing-suggestions-and-replies).
 
 {% hint style="info" %}
 You can only reply publicly to reviews using the Google My Business integration. Any review imported or synced via the integration can be replied to from the platform, and the reply will appear on your Google listing.
@@ -68,3 +68,18 @@ When automation is on, you can set:
 #### Handling of Negative Reviews
 
 For negative reviews, the AI can include your business email or phone number in the reply, inviting customers to contact your support team directly.
+
+### Previewing suggestions and replies
+
+At the bottom of the **AI Review Suggestions** and **AI Replies** sections, each has its own **Preview** button. Click **Preview** to open a window where you can try the AI without posting anything publicly.
+
+Inside the window, use the two choices at the top to switch between:
+
+* **Review suggestion** – Pick a maximum length for the sample text, then click **Generate** to see one example of what a customer might see when they use review suggestions on your page. The sample reflects your saved language, keywords, and custom instructions for review suggestions. If you changed any of those options on the page, click **Save** first so the sample matches your latest choices.
+* **Reply** – Pick a star rating, optionally type sample review text, choose a tone, then click **Generate** to see an example reply. The sample reflects your saved language, keywords, and custom instructions for replies. Again, **Save** your page changes first if you want the sample to match what you just edited.
+
+You can switch between the two areas anytime, click **Generate** again for a new sample, or **Cancel** to close the window.
+
+{% hint style="info" %}
+Preview is only for testing your settings in the assistant. Nothing from the preview is published to your review page, your Google listing, or anywhere else.
+{% endhint %}
