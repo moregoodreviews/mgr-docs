@@ -1,5 +1,7 @@
 ---
-description: Connect your tools to collect reviews, send requests, and get notified when customers leave feedback.
+description: >-
+  Connect your tools to collect reviews, send requests, and get notified when
+  customers leave feedback.
 icon: plug
 ---
 
@@ -11,7 +13,7 @@ Integrations connect More Good Reviews with the tools you already use. **Google 
 
 Go to **Settings** in the sidebar and click **Integrations**. You’ll see all available integrations grouped by type: Reviews, CRMs, Notifications, and SMS. Click any integration to connect it to your project.
 
----
+***
 
 ## Review Integrations
 
@@ -25,7 +27,7 @@ Google My Business is the most important integration for most businesses. Sync y
 Google My Business supports multiple locations. After connecting, select the locations you want to sync. Reviews from unselected locations will not be imported.
 {% endhint %}
 
----
+***
 
 ## CRM Integrations
 
@@ -43,7 +45,7 @@ Send review requests to your HubSpot contacts. Connect your HubSpot account and 
 CRM integrations work best when paired with a [Request Strategy](request-strategy.md). Set rules for when to send review requests—for example, after a successful charge or when a contact reaches a certain stage.
 {% endhint %}
 
----
+***
 
 ## Alert Integrations
 
@@ -57,7 +59,7 @@ Get notified in Slack when customers review your business. Connect your Slack wo
 
 Get notified in Discord when customers review your business. Connect your Discord server and add the MGR bot. New reviews are posted to the channel you select, so your team can see feedback as it comes in and respond from MGR.
 
----
+***
 
 ## SMS Integrations
 
@@ -81,7 +83,7 @@ Request reviews from your customers over SMS using SimpleTexting. Connect your S
 
 For setup details, see [SMS with SimpleTexting](../sms/sms-with-simpletexting.md).
 
----
+***
 
 ## Application Connectors
 
@@ -107,7 +109,7 @@ Connect MGR to Boost Space to build automation workflows. Use your review and me
 Application connectors typically use webhooks or the MGR app in their marketplace. For more control, you can also add [Webhooks](projects/webhooks.md) in Settings > API to send events to any URL you choose.
 {% endhint %}
 
----
+***
 
 ## Webhooks and API
 
@@ -123,9 +125,9 @@ For details, see [Webhooks](projects/webhooks.md).
 
 Use the MGR API to import customers, send review requests, export reviews, and more. Your project has an API key in **Settings > API**. The API is ideal for developers who want to build custom integrations or automate workflows programmatically.
 
-For details, see [API Reference](api-reference.md).
+For details, see [API Reference](api-reference/).
 
----
+***
 
 ## Connecting and Disconnecting
 
@@ -135,7 +137,7 @@ For details, see [API Reference](api-reference.md).
 
 **To resync:** Some integrations (like Google My Business, Stripe, and HubSpot) support syncing. If you’ve connected and want to pull in the latest data, click **Sync** or **Resync** on the integration page. Syncing runs in the background; you may see a status update when it completes.
 
----
+***
 
 ## Tips
 

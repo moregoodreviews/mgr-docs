@@ -5,7 +5,7 @@ description: >-
 icon: file-import
 ---
 
-# Importing Customers
+# Customers
 
 To request reviews from your customers, you need to bring them into MGR first. This page explains what data you need, where to find the import options, and how each method works.
 
@@ -13,7 +13,7 @@ To request reviews from your customers, you need to bring them into MGR first. T
 
 Go to **Customers** in the sidebar and click **Add**. A modal opens with tabs for each import method: **Manual Entry**, **Upload CSV**, **Integrations**, and **BCC** (if available). You can also open a specific tab directly—for example, add `?import=csv` to the Customers page URL to open the CSV tab.
 
----
+***
 
 ### What Data You Need
 
@@ -28,13 +28,13 @@ Without an email or phone number, MGR cannot send messages to that customer.
 
 #### Customer Data
 
-| Field | Purpose |
-|-------|---------|
-| **Name** | First and last name. Used in messages and to identify customers. |
-| **Email** | Required for email requests. |
-| **Phone** | Required for SMS requests. |
-| **Company** | Optional. Shown on customer profiles. |
-| **Signup Date** | The date that triggers your request strategy. See below. |
+| Field           | Purpose                                                          |
+| --------------- | ---------------------------------------------------------------- |
+| **Name**        | First and last name. Used in messages and to identify customers. |
+| **Email**       | Required for email requests.                                     |
+| **Phone**       | Required for SMS requests.                                       |
+| **Company**     | Optional. Shown on customer profiles.                            |
+| **Signup Date** | The date that triggers your request strategy. See below.         |
 
 #### Why the Signup Date Matters
 
@@ -44,7 +44,7 @@ Your [Request Strategy](../platform/request-strategy.md) decides when to send th
 
 If you connect Stripe, charge history is imported automatically. You can also send it via an app connector or the REST API. Charge history lets you target customers in your request strategy—for example, only request reviews from customers who have made at least 3 charges, spent $100 or more, or have an active subscription. This helps you focus on customers who are more likely to leave positive reviews.
 
----
+***
 
 ### Import Methods
 
@@ -70,22 +70,22 @@ Upload a CSV file to import up to 1,000 customers at once. The import runs in th
 
 **CSV Headers**
 
-| Header | Required | Description |
-|--------|----------|-------------|
-| first_name | Yes | The customer's first name. |
-| last_name | No | The customer's last name. |
-| email | No | The customer's email address. |
-| phone | No | The customer's phone number. |
-| company | No | The customer's company name. |
-| location | No | The slug or UUID of a location. Must match a location in **Settings > Locations**. |
-| notes | No | Internal notes (not shown to customers). |
-| tags | No | Comma-separated list of tag slugs. Tags must exist in your project and be for customers. |
-| signed_up_at | No | The customer's start date. Use YYYY-MM-DD format. |
-| address1 | No | Address line 1. |
-| address2 | No | Address line 2. |
-| city | No | City or locality. |
-| state | No | State or region. |
-| postal_code | No | Postal or ZIP code. |
+| Header         | Required | Description                                                                              |
+| -------------- | -------- | ---------------------------------------------------------------------------------------- |
+| first\_name    | Yes      | The customer's first name.                                                               |
+| last\_name     | No       | The customer's last name.                                                                |
+| email          | No       | The customer's email address.                                                            |
+| phone          | No       | The customer's phone number.                                                             |
+| company        | No       | The customer's company name.                                                             |
+| location       | No       | The slug or UUID of a location. Must match a location in **Settings > Locations**.       |
+| notes          | No       | Internal notes (not shown to customers).                                                 |
+| tags           | No       | Comma-separated list of tag slugs. Tags must exist in your project and be for customers. |
+| signed\_up\_at | No       | The customer's start date. Use YYYY-MM-DD format.                                        |
+| address1       | No       | Address line 1.                                                                          |
+| address2       | No       | Address line 2.                                                                          |
+| city           | No       | City or locality.                                                                        |
+| state          | No       | State or region.                                                                         |
+| postal\_code   | No       | Postal or ZIP code.                                                                      |
 
 {% hint style="warning" %}
 Each row must have either an email or a phone number. Duplicate emails or phones in your project will update the existing customer instead of creating a new one.
@@ -107,7 +107,7 @@ Connect HubSpot to import contacts. You can choose which contacts to import by l
 
 Use an app connector to send customer data from thousands of apps and CRMs into MGR. No coding required. Useful if your CRM or tool isn't natively supported. Set up under **Settings > Integrations**.
 
-Connectors: [Zapier](https://zapier.com/apps/more-good-reviews/integrations), [Pabbly Connect](https://accounts.pabbly.com/login/?s=connect&pl=https://connect.pabbly.com/share-app/CUFRYwBlVTdTGARADkEHYltIBzACXlNpVUVUXQFkB0EHKAlBBmwKFQx3U0UHf1VmAG0), [Make](https://www.make.com/en/hq/app-invitation/0b3a8c3446b8c2f7cfc1acdcf434104c), [Boost.space](https://integrator.boost.space/app/invite/096ef2f6f3a68a7099ad125c107a69cf).
+Connectors: [Zapier](https://zapier.com/apps/more-good-reviews/integrations), [Pabbly Connect](https://accounts.pabbly.com/login/?s=connect\&pl=https://connect.pabbly.com/share-app/CUFRYwBlVTdTGARADkEHYltIBzACXlNpVUVUXQFkB0EHKAlBBmwKFQx3U0UHf1VmAG0), [Make](https://www.make.com/en/hq/app-invitation/0b3a8c3446b8c2f7cfc1acdcf434104c), [Boost.space](https://integrator.boost.space/app/invite/096ef2f6f3a68a7099ad125c107a69cf).
 
 #### Email BCC
 
@@ -130,9 +130,9 @@ BCC is great for businesses that already email customers (e.g., receipts or invo
 
 #### REST API
 
-Send customer data from your own server using the REST API. Endpoints are available for importing customers and charges. See the [API Reference](../platform/api-reference.md) for details.
+Send customer data from your own server using the REST API. Endpoints are available for importing customers and charges. See the [API Reference](../platform/api-reference/) for details.
 
----
+***
 
 ### After Import
 
@@ -143,7 +143,7 @@ Send customer data from your own server using the REST API. Endpoints are availa
 
 Once customers are in your project, configure your [Request Strategy](../platform/request-strategy.md) and turn on automatic review collection to start requesting reviews. You can also send manual review requests from individual customer profiles.
 
----
+***
 
 ### Tips
 

@@ -1,5 +1,7 @@
 ---
-description: White-label Agency API - secret-key automation, live reference, and workflows for reviews, ratings, feedback, and reputation.
+description: >-
+  White-label Agency API - secret-key automation, live reference, and workflows
+  for reviews, ratings, feedback, and reputation.
 icon: rectangle-terminal
 ---
 
@@ -9,7 +11,7 @@ If you run a white-label [reviews and reputation](../white-label.md) business fo
 
 Think of it as a secure bridge between your systems and your agency space in the product. Each **project** under your agency still represents one customer business you manage—for **review requests**, **ratings**, **feedback**, **reputation** programs, and everything else those clients do in the console. The connection does not replace the console; it helps you scale how you onboard people and tune what they are allowed to see.
 
-Your agency has its own **secret key**. That key lets trusted automation act on behalf of your whole agency—across every customer business you host—not just a single location. It is similar in spirit to the secret key inside a single project’s settings, described in our [project automation reference](../../platform/api-reference.md), except the agency key applies to the entire agency.
+Your agency has its own **secret key**. That key lets trusted automation act on behalf of your whole agency—across every customer business you host—not just a single location. It is similar in spirit to the secret key inside a single project’s settings, described in our [project automation reference](../../platform/api-reference/), except the agency key applies to the entire agency.
 
 ## The live reference on this page
 
@@ -68,4 +70,4 @@ Plan a moment to update every place that stored the old key. Until you do, anyth
 ## Related documentation
 
 * [White label overview](../white-label.md) — agency setup, domains, and client experience.
-* [Project automation reference](../../platform/api-reference.md) — secret-key sign-in and actions scoped to a **single** project (customers, review requests, reviews, locations, and more).
+* [Project automation reference](../../platform/api-reference/) — secret-key sign-in and actions scoped to a **single** project (customers, review requests, reviews, locations, and more).

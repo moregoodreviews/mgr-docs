@@ -36,11 +36,22 @@
 * [Adding Your Domain](platform/adding-your-domain.md)
 * [Showcase](platform/showcase.md)
 * [Widgets](platform/widgets.md)
-* [API Reference](platform/api-reference.md)
 * [AI Assistant](platform/ai-assistant.md)
 * [Integrations](platform/integrations.md)
 * [Sharing](platform/projects/sharing.md)
 * [Exporting](platform/exporting.md)
+* [API Reference](platform/api-reference/README.md)
+  * ```yaml
+    type: builtin:openapi
+    props:
+      models: false
+      downloadLink: false
+    dependencies:
+      spec:
+        ref:
+          kind: openapi
+          spec: mgr-project-api
+    ```
 
 ## Importing
 
@@ -70,10 +81,10 @@
 * [Customization Options](agencies/customization-options.md)
 * [API Reference](agencies/api-reference/README.md)
   * ```yaml
-    type: builtin:openapi
     props:
       models: false
       downloadLink: false
+    type: builtin:openapi
     dependencies:
       spec:
         ref:
