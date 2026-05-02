@@ -37,6 +37,7 @@
 * [Showcase](platform/showcase.md)
 * [Widgets](platform/widgets.md)
 * [AI Assistant](platform/ai-assistant.md)
+* [MCP Server](platform/mcp-server.md)
 * [Integrations](platform/integrations.md)
 * [Sharing](platform/projects/sharing.md)
 * [Exporting](platform/exporting.md)
