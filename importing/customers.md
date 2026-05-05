@@ -81,6 +81,7 @@ Upload a CSV file to import up to 1,000 customers at once. The import runs in th
 | notes          | No       | Internal notes (not shown to customers).                                                 |
 | tags           | No       | Comma-separated list of tag slugs. Tags must exist in your project and be for customers. |
 | signed\_up\_at | No       | The customer's start date. Use YYYY-MM-DD format.                                        |
+| unsubscribed\_at | No     | The date the customer unsubscribed, if any. Use YYYY-MM-DD format. Leave blank for subscribed customers. |
 | address1       | No       | Address line 1.                                                                          |
 | address2       | No       | Address line 2.                                                                          |
 | city           | No       | City or locality.                                                                        |
@@ -95,9 +96,15 @@ Each row must have either an email or a phone number. Duplicate emails or phones
 Download an example CSV template from [moregoodreviews.com/csv/customers.csv](https://moregoodreviews.com/csv/customers.csv).
 {% endhint %}
 
+{% hint style="success" %}
+Migrating from another review platform? Add an `unsubscribed_at` column to your CSV with the date each customer opted out. MGR will skip review requests for those customers and respect their unsubscribed status.
+{% endhint %}
+
 #### Stripe
 
 Connect your Stripe account to automatically import customers and their charge history. Ideal if you want to request reviews from paying customers or subscribers. Set up the connection under **Settings > Integrations**.
+
+Refunds are handled automatically. When a charge is refunded in Stripe, MGR records a matching negative charge so the customer's net spend stays accurate. This means request strategies that filter by spend won't keep targeting customers who got their money back.
 
 #### HubSpot
 

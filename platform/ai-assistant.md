@@ -1,13 +1,14 @@
 ---
 description: >-
-  AI-powered tools for generating review suggestions and crafting responses to
-  reviews, including how to preview samples and automate replies.
+  AI-powered tools for generating review suggestions, highlighting the best
+  phrases in reviews, and crafting replies, with options to preview and
+  automate.
 icon: sparkles
 ---
 
 # AI Assistant
 
-The AI Assistant helps your customers write reviews and helps your team respond to reviews. You can access it in your project settings, [here](https://moregoodreviews.com/settings/assistant).
+The AI Assistant helps your customers write reviews, highlights the best phrases in the reviews you collect, and helps your team respond to reviews. You can access it in your project settings, [here](https://moregoodreviews.com/settings/assistant).
 
 ### Setup
 
@@ -33,6 +34,36 @@ Each review page has its own toggle to enable or disable AI Review Suggestions. 
 
 {% hint style="info" %}
 AI Review Suggestions only appear when customers are writing a native review on your review page. If they're redirected to a 3rd party site (like Google) after selecting a rating, the button won't show. If you use links instead of redirects, customers can still copy and paste an AI-generated review to a 3rd party site.
+{% endhint %}
+
+### AI Highlights
+
+AI Highlights pick out the best phrases in your positive reviews and color them so they stand out wherever the review is displayed—in widgets, your showcase, and review share images. Skim-friendly highlights help shoppers spot what other customers loved without reading every word, which can lift conversion and SEO.
+
+Only positive reviews (4 or 5 stars) with review text are highlighted. Short and empty reviews are skipped automatically.
+
+You can adjust:
+
+* **Automate Highlights** – Turn AI Highlights on or off for your project.
+* **Highlight Color** – Pick the background color used behind highlighted phrases. Choose from preset shades or enter your own hex value.
+* **Custom Instructions** – Add your own guidance for the AI (up to 2,000 characters). For example, you might tell it to favor phrases about service quality, product features, or your brand name.
+
+Once turned on, new positive reviews are highlighted automatically as they come in, usually within an hour. You don't need to do anything—just collect reviews and the AI takes care of the rest.
+
+#### Saving changes
+
+When you save your AI Highlights settings, a confirmation window appears with extra options:
+
+* **Turning highlights on** – Check **Regenerate highlights with AI for all positive reviews** to backfill highlights across every existing positive review. Leave it unchecked if you only want highlights applied to reviews going forward.
+* **Turning highlights off** – Check **Remove highlights from all reviews** to strip existing highlights from your reviews. Leave it unchecked to keep them in place even though new reviews won't be highlighted.
+* **Changing only the color** – Existing highlights are recolored automatically. The AI does not need to run again, so this is fast and free.
+
+{% hint style="info" %}
+Changing the highlight color does not regenerate highlights or use any AI credits—it just updates the color of the highlights that already exist.
+{% endhint %}
+
+{% hint style="success" %}
+Highlight color is part of your visual brand. Pick a shade that contrasts with your widget and showcase backgrounds so the highlighted phrases really pop.
 {% endhint %}
 
 ### AI Replies
